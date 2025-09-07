@@ -10,3 +10,5 @@ In order to create the public facing web pages from the Hugo files, run the foll
 This will build, but not deploy, the site. Before building Hugo will delete any files from a previous build, ensuring the new build does not include outdated or draft content.
 ## Hugo documentation
 The Hugo documentation can be found [here](https://gohugo.io/documentation/), and their Quick Start guide can be found [here](https://gohugo.io/getting-started/quick-start/).
+## Migration Documentation
+Documentation on the requirements and migration process for the 610 site can be found [here](https://www.overleaf.com/read/nryrccvpqkmk#06e431).
