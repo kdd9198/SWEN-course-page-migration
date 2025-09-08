@@ -2,15 +2,17 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'SWEN-610'
 theme = 'book'
-BookComments = false
+
+[params]
+  BookComments = false
 
 [menu]
-[[menu.home]]
-  name = "Syllabus"
-  url = "/syllabus/"
-  weight = 2
+  [[menu.home]]
+    name = "Syllabus"
+    url = "/syllabus/"
+    weight = 2
 
-[[menu.home]]
-  name = "Project"
-  url = "/project/"
-  weight = 3
+  [[menu.home]]
+    name = "Project"
+    url = "/project/"
+    weight = 3
