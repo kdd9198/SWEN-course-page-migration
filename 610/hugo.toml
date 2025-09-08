@@ -1,4 +1,16 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'SWEN-610'
 theme = 'book'
+BookComments = false
+
+[menu]
+[[menu.home]]
+  name = "Syllabus"
+  url = "/syllabus/"
+  weight = 2
+
+[[menu.home]]
+  name = "Project"
+  url = "/project/"
+  weight = 3
