@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'SWEN-610'
 theme = 'book'
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   BookComments = false
 
