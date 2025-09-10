@@ -1,9 +1,11 @@
 ---
-weight: 1
 title: "Schedule"
+
+weight: 1
 bookToC: true
-layout: single
-type: 'docs'
+bookSearchExclude: false
+
+draft: true
 ---
 
 ## Class Schedule - 2241 FALL TUES and THUR
