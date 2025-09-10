@@ -132,3 +132,211 @@ DB3 due Tuesday this week
 
 {{% /columns %}}
 {{< /card >}}
+
+## Construction
+
+### Session 06
+Week of September 28th
+
+{{% hint warning %}}
+Rest 1 due Tuesday this week
+{{% /hint %}}
+
+{{< card >}}
+{{% columns ratio="2:1" %}}
+
+- Topics
+    * placeholder
+    * placeholder
+    * placeholder
+
+- Assignments
+    * placeholder
+    * placeholder
+    * placeholder
+
+{{% /columns %}}
+{{< /card >}}
+
+### Session 07
+Week of October 5th
+
+{{% hint warning %}}
+Sprint 1 due Tuesday this week
+{{% /hint %}}
+
+{{< card >}}
+{{% columns ratio="2:1" %}}
+
+- Topics
+    * placeholder
+    * placeholder
+    * placeholder
+
+- Assignments
+    * placeholder
+    * placeholder
+    * placeholder
+
+{{% /columns %}}
+{{< /card >}}
+
+{{% hint danger %}}
+Week of October 13th - Rest 2 due Tuesday this week<br>
+Reminder - NO CLASS ON 10/14 or 10/16
+{{% /hint %}}
+
+### Session 08
+Week of October 19th
+
+{{% hint warning %}}
+Client 0 due Tuesday this week
+{{% /hint %}}
+
+{{< card >}}
+{{% columns ratio="2:1" %}}
+
+- Topics
+    * placeholder
+    * placeholder
+    * placeholder
+
+- Assignments
+    * placeholder
+    * placeholder
+    * placeholder
+
+{{% /columns %}}
+{{< /card >}}
+
+### Session 09
+Week of October 26th
+
+{{% hint warning %}}
+Client 1 due Tuesday this week
+{{% /hint %}}
+
+{{< card >}}
+{{% columns ratio="2:1" %}}
+
+- Topics
+    * placeholder
+    * placeholder
+    * placeholder
+
+- Assignments
+    * placeholder
+    * placeholder
+    * placeholder
+
+{{% /columns %}}
+{{< /card >}}
+
+### Session 10
+Week of November 2nd
+
+{{% hint warning %}}
+Client 2, Sprint 2 due Tuesday this week
+{{% /hint %}}
+
+{{< card >}}
+{{% columns ratio="2:1" %}}
+
+- Topics
+    * placeholder
+    * placeholder
+    * placeholder
+
+- Assignments
+    * placeholder
+    * placeholder
+    * placeholder
+
+{{% /columns %}}
+{{< /card >}}
+
+### Session 11
+Week of November 9th
+
+{{% hint warning %}}
+Client 3 due this week
+{{% /hint %}}
+
+{{< card >}}
+{{% columns ratio="2:1" %}}
+
+- Topics
+    * placeholder
+    * placeholder
+    * placeholder
+
+- Assignments
+    * placeholder
+    * placeholder
+    * placeholder
+
+{{% /columns %}}
+{{< /card >}}
+
+### Session 12
+Week of November 16th
+
+{{% hint warning %}}
+Client 4 due this week
+{{% /hint %}}
+
+{{< card >}}
+{{% columns ratio="2:1" %}}
+
+- Topics
+    * placeholder
+    * placeholder
+    * placeholder
+
+- Assignments
+    * placeholder
+    * placeholder
+    * placeholder
+
+{{% /columns %}}
+{{< /card >}}
+
+{{% hint danger %}}
+Reminder - NO CLASS BETWEEN 11/24 and 11/30
+{{% /hint %}}
+
+## Transition
+
+### Session 13
+Week of November 30th
+
+{{% hint warning %}}
+Sprint 3 due this week
+{{% /hint %}}
+
+{{< card >}}
+{{% columns ratio="2:1" %}}
+
+- Topics
+    * placeholder
+    * placeholder
+    * placeholder
+
+- Assignments
+    * placeholder
+    * placeholder
+    * placeholder
+
+{{% /columns %}}
+{{< /card >}}
+
+### Session 14
+Week of December 7th
+
+{{% hint warning %}}
+NO CLASS!!
+{{% /hint %}}
+
+{{% hint danger %}}
+Sprint 4 due on the 13th of December
+{{% /hint %}}
