@@ -21,7 +21,7 @@ type: 'docs'
 ### Session 01
 Week of August 24th
 
-{{% card %}}
+{{< card >}}
 {{% columns ratio="2:1" %}}
 
 - Topics
@@ -35,7 +35,7 @@ Week of August 24th
     * placeholder
 
 {{% /columns %}}
-{{% /card %}}
+{{< /card >}}
 
 ### Session 02
 Week of August 31st
@@ -44,7 +44,7 @@ Week of August 31st
 DB0, Slack/Discord, and Trello setup due Tuesday this week
 {{% /hint %}}
 
-{{% card %}}
+{{< card >}}
 {{% columns ratio="2:1" %}}
 
 - Topics
@@ -57,5 +57,5 @@ DB0, Slack/Discord, and Trello setup due Tuesday this week
     * placeholder
     * placeholder
 
-{{% /columns %}}
+{{< /columns >}}
 {{% /card %}}
