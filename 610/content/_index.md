@@ -59,5 +59,76 @@ DB0, Slack/Discord, and Trello setup due Tuesday this week
     * placeholder
     * placeholder
 
-{{< /columns >}}
-{{% /card %}}
+{{% /columns %}}
+{{< /card >}}
+
+### Session 03
+Week of September 7th
+
+{{% hint warning %}}
+DB1, and Individual Domain Analysis due Tuesday this week
+{{% /hint %}}
+
+{{< card >}}
+{{% columns ratio="2:1" %}}
+
+- Topics
+    * placeholder
+    * placeholder
+    * placeholder
+
+- Assignments
+    * placeholder
+    * placeholder
+    * placeholder
+
+{{% /columns %}}
+{{< /card >}}
+
+## Elaboration
+
+### Session 04
+Week of September 14th
+
+{{% hint warning %}}
+DB2, Project Requirements, and Sprint 0 (includes Team domain model, and Trello Backlog) due Tuesday this week
+{{% /hint %}}
+
+{{< card >}}
+{{% columns ratio="2:1" %}}
+
+- Topics
+    * placeholder
+    * placeholder
+    * placeholder
+
+- Assignments
+    * placeholder
+    * placeholder
+    * placeholder
+
+{{% /columns %}}
+{{< /card >}}
+
+### Session 05
+Week of September 21st
+
+{{% hint warning %}}
+DB3 due Tuesday this week
+{{% /hint %}}
+
+{{< card >}}
+{{% columns ratio="2:1" %}}
+
+- Topics
+    * placeholder
+    * placeholder
+    * placeholder
+
+- Assignments
+    * placeholder
+    * placeholder
+    * placeholder
+
+{{% /columns %}}
+{{< /card >}}
