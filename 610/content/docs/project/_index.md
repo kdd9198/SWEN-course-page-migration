@@ -70,10 +70,10 @@ All of the information you need about the project for Sprint 0 is in the [Vision
         * Basic Functionality - some basic REST routes and a basic DB schema
         * Adherence to Model View View-Model (MVVM) Architecture (just follow course instructions)
 * Other dimensions
-    * [Planning and managing of activities in Trello board](/docs/project/sprint-planning) **throughout** and in support of **Sprint 1**
+    * [Planning and managing of activities in Trello board](/docs/project/sprint-planning#sprint_1_planning) **throughout** and in support of **Sprint 1**
     * Gitlab use for version control
     * Slack workspace use for team communication
-    * Individual team member visibility in Trello board, Slack workspace, and Gitlab activities
+    * [Individual team member visibility in Trello board, Slack workspace, and Gitlab activities](#individual-team-member-evaluation)
     * Each team member completes their individual assignments and shows competency in the programming required by the project
     * Refine your [10% feature enhancement(s) idea](/docs/project/vision)
 
