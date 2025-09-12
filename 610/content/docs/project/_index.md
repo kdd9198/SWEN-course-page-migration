@@ -39,7 +39,7 @@ All of the information you need about the project for Sprint 0 is in the [Vision
 ### Project Activities
 
 * Project submissions
-    * [Domain model](/topics/domain-analysis)
+    * [Domain model](/topics/domain-analysis#exercises)
     * [Product backlog](/assignments/trello-initiation)
 * Other grading dimensions
     * Individual team member visibility in Discord workspace
@@ -48,7 +48,7 @@ All of the information you need about the project for Sprint 0 is in the [Vision
 
 ### Submission Instructions
 
-* Create a consolidated [Domain model](/topics/domain-analysis) that incorporates the best elements from each student's domain model. Submit your team's domain model as a PDF file in a directory called 'domain model' at the root of your repo.
+* Create a consolidated [Domain model](/topics/domain-analysis#exercises) that incorporates the best elements from each student's domain model. Submit your team's domain model as a PDF file in a directory called 'domain model' at the root of your repo.
 * Create your Product Backlog by populating your Trello planning board with a consolidated set of User and Spike Stories, and Epics following the instructions [here](/assignments/trello-initiation). Your instructor will look at your planning activity directly in your Trello board.
 * Your instructor will look at your team communications participation directly in your Discord workspace channels.
 
