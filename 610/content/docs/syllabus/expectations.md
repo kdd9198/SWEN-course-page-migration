@@ -82,7 +82,7 @@ This is particularly important given academic integrity. Since you can easily ch
 
 Providing solid feedback is important to us in this class.
 
-* Follow [Code Review]({{< ref "/docs/syllabus/code-review.md" >}}) guidelines
+* Follow [Code Review](/docs/syllabus/code-review) guidelines
 * Rude feedback is unhelpful. Be professional so you can be a useful colleague.
 * Positive feedback is nice, but only helpful when it’s specific. If you give a compliment, take an extra moment to be specific. This helps the other person anchor what they’re doing as good.
 * Suggest alternatives, but also be honest about any doubts you have on your own feedback. We’re all in this together.

@@ -35,7 +35,7 @@ This course aims for you to learn both individual and team-based software engine
 
 This course will combine lecture and in-class activities along with a term-long software development project. In addition, students will collaborate inside and outside of class in support of project activities and deliverables. There are several phased project deliverables highlighted on the course schedule and in the project information.
 
-See the [expectations]({{< ref "/docs/syllabus/expectations.md" >}}) page for a description of how the course instruction will work.
+See the [expectations](/docs/syllabus/expectations) page for a description of how the course instruction will work.
 
 ## Textbook
 
