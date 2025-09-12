@@ -72,7 +72,7 @@ Teams will use the following technologies for development of the app
 * [Flask-restful](https://flask-restful.readthedocs.io/en/latest/) for your server/middle layer
 * [React](https://react.dev/) for your front-end
 
-Since many of the lectures touch upon these technologies,There will be **no deviations** from this technology stack. You are welcome to add dependencies to your application with the approval of the Product Owner. This decision is one that the team unanimously must agree upon.
+Since many of the lectures touch upon these technologies,There will be ***no deviations*** from this technology stack. You are welcome to add dependencies to your application with the approval of the Product Owner. This decision is one that the team unanimously must agree upon.
 
 ## Process
 

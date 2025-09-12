@@ -43,7 +43,7 @@ For your study of this topic, use some of these resources.
 
 ### Class Lecture
 
-* [Domain Analysis](/downloads/slides/DomainAnalysis.pptx)
+* [Domain Analysis](/downloads/slides/domain-analysis.pptx)
 
 ### Exercises
 
