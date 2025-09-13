@@ -2,7 +2,7 @@
 title: 'Git Releases'
 date: '2025-09-12T12:05:12-04:00'
 
-weight: 100
+weight: 30
 bookToC: true
 bookSearchExclude: false
 
