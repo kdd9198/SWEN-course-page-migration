@@ -160,7 +160,7 @@ All of the information you need about the project for Sprint 0 is in the [Vision
 
 {{% hint %}}
 
-"Fourth and final phase in the project lifecycle, Transition focuses on deploying software to users and ensuring that theirs expectations about the software were met."
+"Fourth and final phase in the project lifecycle, Transition focuses on deploying software to users and ensuring that their expectations about the software were met."
 
 [OpenUP Transition Phase](https://www.utm.mx/~caff/doc/OpenUPWeb/openup/guidances/concepts/transition_phase_DD5986E5.html?nodeId=902e4d0d)
 
