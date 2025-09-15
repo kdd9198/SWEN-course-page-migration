@@ -24,17 +24,18 @@ draft: true
 Week of August 24th
 
 {{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
-    * placeholder
-    * placeholder
-    * placeholder
+    * appreciation placeholder
+    * inception placeholder
+    * databases placeholder
 
 - Assignments
-    * placeholder
-    * placeholder
-    * placeholder
+    * team formation placeholder
+    * [DB 0 - Homework Setup](/docs/project/db-project)
+    * slack setup placeholder
+    * trello team setup placeholder
 
 {{% /columns %}}
 {{< /card >}}
@@ -47,17 +48,18 @@ DB0, Slack/Discord, and Trello setup due Tuesday this week
 {{% /hint %}}
 
 {{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
-    * placeholder
-    * placeholder
-    * placeholder
+    * [Domain Analysis](/topics/domain-analysis)
+    * git repos placeholder
+    * relationships/joints placeholder
 
 - Assignments
-    * placeholder
-    * placeholder
-    * placeholder
+    * [Domain analysis - individual](/topics/domain-analysis#exercises)
+    * [Domain analysis - team](/topics/domain-analysis#exercises)
+    * [Gitlab repository - team](/topics/version-control-concepts#exercises)
+    * DB 1 placeholder
 
 {{% /columns %}}
 {{< /card >}}
@@ -70,17 +72,17 @@ DB1, and Individual Domain Analysis due Tuesday this week
 {{% /hint %}}
 
 {{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
-    * placeholder
-    * placeholder
-    * placeholder
+    * CRUD placeholder
+    * project requirementsplaceholder
+    * effective communication placeholder
 
 - Assignments
-    * placeholder
-    * placeholder
-    * placeholder
+    * DB2 placeholder
+    * [Trello Team Initiation](/assignments/trello-initiation)
+    * [Complete Sprint 0](/docs/project#inception-phase--sprint-0)
 
 {{% /columns %}}
 {{< /card >}}
