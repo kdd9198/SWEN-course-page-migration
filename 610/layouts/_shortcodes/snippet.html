@@ -1,0 +1,11 @@
+{{ $src := "" }}
+{{ with (.Get 0) }}
+  {{- $src = . }}
+{{ end }}
+
+{{ $snippet := "" }}
+{{ with resources.Get $src }}
+  {{ $snippet = . }}
+{{ end }}
+
+{{ $snippet.Content | .Page.RenderString }}

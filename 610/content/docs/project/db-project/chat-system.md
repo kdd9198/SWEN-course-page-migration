@@ -17,25 +17,7 @@ You are running a chat system (like Slack, Discord, Teams, …). Messages are se
 
 Be sure to check out our [expectations page](/docs/syllabus/expectations). Be sure to consult these when you are trying to think of helpful feedback.
 
-## DB 0: Setup
-
-DB0 is the same for everyone, regardless of project.
-
-For setting up in the lab or on your own machine, follow our [DB Project Setup Instructions](/docs/project/db-project).
-
-### Grading DB0
-
-* 10pts. All steps implemented
-* 10pts. CI fully passes
-
-{{% hint warning %}}
-
-Grading notes:
-
-* Make sure you tagged the commit as `db0` so we can find it easily.
-* We grade GitLab only, unless an instructor or TA has given explicit written instructions that you can bypass the CI (which is rare)
-
-{{% /hint %}}
+{{< snippet "snippets/db0-snippet" >}}
 
 ## DB1: Initial Schema, Test Data Set
 
