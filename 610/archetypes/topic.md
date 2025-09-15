@@ -13,6 +13,8 @@ draft: true
 
 ### Introduction
 
+### Learning Outcomes
+
 ### Study Resources
 
 #### *Video Lessons*
