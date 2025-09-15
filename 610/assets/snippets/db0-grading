@@ -1,11 +1,3 @@
-## DB0: Setup
-
-DB0 is the same for everyone, regardless of project.
-
-For setting up in the lab or on your own machine, follow our [DB Project Setup Instructions](/docs/project/db-project).
-
-### Grading DB0
-
 * 10pts. All steps implemented
 * 10pts. CI fully passes
 

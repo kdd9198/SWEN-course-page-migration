@@ -17,9 +17,21 @@ You are running a chat system (like Slack, Discord, Teams, …). Messages are se
 
 Be sure to check out our [expectations page](/docs/syllabus/expectations). Be sure to consult these when you are trying to think of helpful feedback.
 
-{{< snippet "snippets/db0-snippet" >}}
+## DB0: Setup
 
-{{< snippet "snippets/db1-top-section" >}}
+{{< snippet "snippets/db0-setup" >}}
+
+### Grading DB0
+
+{{< snippet "snippets/db0-grading" >}}
+
+## DB1: Initial Schema, Test Data Set
+
+{{< snippet "snippets/db1-intro" >}}
+
+### Grading DB1
+
+{{< snippet "snippets/db1-grading" >}}
 
 ### Feature Overview
 
