@@ -19,40 +19,7 @@ Be sure to check out our [expectations page](/docs/syllabus/expectations). Be su
 
 {{< snippet "snippets/db0-snippet" >}}
 
-## DB1: Initial Schema, Test Data Set
-
-In this iteration, please name your topic branch `db1-dev`. Once you have merged this into the `master` branch, tag the version that you consider to be your submission with `db1`.
-
-The main purposes of this twofold:
-
-* Get your initial schema going
-* Set up your test data for unit testing
-
-Build a table in your database and populate it with some test data. We will be building this database schema incrementally, so let’s just start with two or three tables.
-
-This iteration you will build some initial tables that relate to each other. Don’t worry about storing all the columns you can think of - just get the general concept of the table and its foreign/primary keys.
-
-Generally speaking, you will not call SQL directly from your unittest code. Instead, you will have APIs that will do the heavy lifting for SQL. Your APIs will be methods in `src/` that will be called by your unittests. The APIs will make the calls to SQL (e.g. using `CREATE` and `SELECT` etc.). Keep your test data loading separate from the APIs in `src/` to keep **test code** and **production code** distinct. See your project domain for specifics.
-
-We will give you test cases and you will need to adapt them into Python unit tests. You also must **add 3 additional tests** (i.e. `test_*` methods). You are welcome (encouraged!) to add to your test dataset too.
-
-Lesson: ***Learn the value of deleting out of date code.*** Delete any trace of `example_table` from your code. We’re done with the example setup, so adapt your code accordingly. That code will live on in your repository history anyway. Don’t comment it out like a packrat. Delete. The sooner you get used to the idea of revising code instead of continually adding to it, the better your software will be on so many levels.
-
-### Grading DB1
-
-By lab day:
-
-* 5 pts. Set up merge request by lab day
-* 10pts. Enough functionality finished such that it can be thoroughly reviewed
-
-By submission day:
-
-* 10pts. Directions followed. e.g. Example removed, git branch, merge, tag, etc.
-* 10pts. Provided useful feedback to others (merge request feedback)
-* 5pts. Responded to feedback on your own project
-* 15pts. Test cases implemented
-* 10pts. CI Succesfully runs
-* 15pts. Overall spirit of the feature implemented
+{{< snippet "snippets/db1-top-section" >}}
 
 ### Feature Overview
 
