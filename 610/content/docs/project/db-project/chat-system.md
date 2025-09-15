@@ -15,7 +15,7 @@ You are running a chat system (like Slack, Discord, Teams, …). Messages are se
 
 ## DB Design & Style Expectations
 
-Be sure to check out our [expectations page](/docs/syllabus/expectations). Be sure to consult these when you are trying to think of helpful feedback.
+{{< snippet "snippets/db-expectations" >}}
 
 ## DB0: Setup
 
