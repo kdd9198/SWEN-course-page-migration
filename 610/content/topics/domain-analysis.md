@@ -27,17 +27,17 @@ Domain analysis starts early in the development process to create a common under
 
 For your study of this topic, use some of these resources.
 
-#### Video Lessons
+#### *Video Lessons*
 
 * [Domain Model](https://www.youtube.com/watch?v=kHCzG6okHos) - this video uses a more comprehensive notation than you will use for your domain model
 
-#### Web Articles and Blogs
+#### *Web Articles and Blogs*
 
 * [Domain Modeling Abstract](https://framework.scaledagile.com/domain-modeling/)
 * [Domain Model and Domain Modeling](https://stg-tud.github.io/eise/WS11-EiSE-07-Domain_Modeling.pdf)
 * [Domain Model: Visualizing Concepts](https://csis.pace.edu/~marchese/CS616/Lec5/se_l5a.htm)
 
-#### Wikipedia
+#### *Wikipedia*
 
 * [Domain Model](https://en.wikipedia.org/wiki/Domain_model)
 
@@ -47,7 +47,7 @@ For your study of this topic, use some of these resources.
 
 ### Exercises
 
-#### After Class Exercises
+#### *After Class Exercises*
 
 * Domain analysis - individual
     * Each team member is to independently create a domain model for the term project. Use the [project vision statement](/docs/project/vision) as the basis for defining the domain entities and relationships. Make sure to include domain elements that you find in any links in the feature descriptions. Submit your domain model as a Word, PDF, or image file to your repository. Put it in a directory called 'domain model' a the root of your project.
