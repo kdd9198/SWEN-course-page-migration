@@ -328,7 +328,7 @@ By submission day:
     * The average number of messages (per day) that had more than 5 characters in the 30 days prior to a given date, and
     * The number of different users who have sent a message that had more than 5 characters in the 30 days prior to a given date
 * **Moderator Query:** list all users who have sent a message in a given date range who are currently suspended from any community.
-* **Future Plan.** Create a file called FUTURE.md in the root of your repository. Using Markdown syntax, provide written answers to the following:
+* **Future Plan.** Create a file called FUTURE.md in the root of your repository. Using [Markdown syntax](https://www.markdownguide.org/basic-syntax/), provide written answers to the following:
     * In the future, if we were to add the ability to have `reactions` to your system, what would need to change? For example, someone can give a “thumbs up” to your message
         * What tables need changing and/or adding?
         * What API methods would you provide?
