@@ -15,22 +15,22 @@ You are a tech company that provides a mobile app for booking taxi rides (e.g. U
 
 ## DB Design & Style Expectations
 
-{{< snippet "snippets/db-expectations" >}}
+{{< snippet "snippets/db-project/db-expectations.md" >}}
 
 ## DB0: Setup
 
-{{< snippet "snippets/db0-setup" >}}
+{{< snippet "snippets/db-project/db0-setup.md" >}}
 
 ### Grading DB0
 
-{{< snippet "snippets/db0-grading" >}}
+{{< snippet "snippets/db-project/db0-grading.md" >}}
 
 ## DB1: Initial Schema, Test Data Set
 
-{{< snippet "snippets/db1-intro" >}}
+{{< snippet "snippets/db-project/db1-intro.md" >}}
 
 ### Grading DB1
 
-{{< snippet "snippets/db1-grading" >}}
+{{< snippet "snippets/db-project/db1-grading.md" >}}
 
 ### Feature Overview
