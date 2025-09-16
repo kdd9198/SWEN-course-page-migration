@@ -115,7 +115,7 @@ In this iteration, you will add:
     * This contains a chat session between Abbott and Costello discussing ‘Who’s on first’
     * NOTE: You will need to read the data and figure out a way to make it fit according to your DB schema (or do you need to modify your schema?). There can be inconsistencies in data format, some stray characters etc. Think through how to import this data using code, in a consistent, logical way.
 
-**A note about timestamps and APIs.** In this project, we ask that your APIs allow for setting timestamps, which makes our testing setup easier. In practice, a more common approach is to have the database be the source of generating timestamps. For example, if we send a new message, then the database would set the current timestamp using the `CURRENT_DATE` (see [Postgresql docs](https://www.postgresql.org/docs/17/functions-datetime.html#FUNCTIONS-DATETIME-CURRENT)) or something similar. To make your tests repeatable, web engineers have library calls that can make the system “pretend” the current time is what we expect in our test data. An example of this is the [travel_to](https://edgeapi.rubyonrails.org/classes/ActiveSupport/Testing/TimeHelpers.html) method in Ruby on Rails, [with a good explanation here](https://guides.rubyonrails.org/testing.html#testing-time-dependent-code). For us, rather than bringing in more libraries, you can just provide the timestamp in your API and assume that the front-end developer will get the proper times.
+{{< snippet "/snippets/db-project/timestamps-and-apis.md" >}}
 
 ### Test Case Sketches
 
