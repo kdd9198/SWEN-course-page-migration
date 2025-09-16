@@ -23,7 +23,6 @@ draft: true
 ### Session 01
 Week of August 24th
 
-{{< card >}}
 {{% columns %}}
 
 - Topics
@@ -38,7 +37,6 @@ Week of August 24th
     * trello team setup placeholder
 
 {{% /columns %}}
-{{< /card >}}
 
 ### Session 02
 Week of August 31st
@@ -47,7 +45,6 @@ Week of August 31st
 DB0, Slack/Discord, and Trello setup due Tuesday this week
 {{% /hint %}}
 
-{{< card >}}
 {{% columns %}}
 
 - Topics
@@ -62,7 +59,6 @@ DB0, Slack/Discord, and Trello setup due Tuesday this week
     * [DB1 - Chat](/docs/project/db-project/chat-system#db1-initial-schema-test-data-set) - [DB1 - Rideshare](/docs/project/db-project/rideshare#db1-initial-schema-test-data-set) - [DB1 - library](/docs/project/db-project/library#db1-initial-schema-test-data-set)
 
 {{% /columns %}}
-{{< /card >}}
 
 ### Session 03
 Week of September 7th
@@ -71,7 +67,6 @@ Week of September 7th
 DB1, and Individual Domain Analysis due Tuesday this week
 {{% /hint %}}
 
-{{< card >}}
 {{% columns %}}
 
 - Topics
@@ -85,7 +80,6 @@ DB1, and Individual Domain Analysis due Tuesday this week
     * [Complete Sprint 0](/docs/project#inception-phase--sprint-0)
 
 {{% /columns %}}
-{{< /card >}}
 
 ## Elaboration
 
@@ -96,8 +90,7 @@ Week of September 14th
 DB2, Project Requirements, and Sprint 0 (includes Team domain model, and Trello Backlog) due Tuesday this week
 {{% /hint %}}
 
-{{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
     * placeholder
@@ -110,7 +103,6 @@ DB2, Project Requirements, and Sprint 0 (includes Team domain model, and Trello 
     * placeholder
 
 {{% /columns %}}
-{{< /card >}}
 
 ### Session 05
 Week of September 21st
@@ -119,8 +111,7 @@ Week of September 21st
 DB3 due Tuesday this week
 {{% /hint %}}
 
-{{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
     * placeholder
@@ -133,7 +124,6 @@ DB3 due Tuesday this week
     * placeholder
 
 {{% /columns %}}
-{{< /card >}}
 
 ## Construction
 
@@ -144,8 +134,7 @@ Week of September 28th
 Rest 1 due Tuesday this week
 {{% /hint %}}
 
-{{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
     * placeholder
@@ -158,7 +147,6 @@ Rest 1 due Tuesday this week
     * placeholder
 
 {{% /columns %}}
-{{< /card >}}
 
 ### Session 07
 Week of October 5th
@@ -167,8 +155,7 @@ Week of October 5th
 Sprint 1 due Tuesday this week
 {{% /hint %}}
 
-{{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
     * placeholder
@@ -181,7 +168,6 @@ Sprint 1 due Tuesday this week
     * placeholder
 
 {{% /columns %}}
-{{< /card >}}
 
 {{% hint danger %}}
 Week of October 13th - Rest 2 due Tuesday this week<br>
@@ -195,8 +181,7 @@ Week of October 19th
 Client 0 due Tuesday this week
 {{% /hint %}}
 
-{{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
     * placeholder
@@ -209,7 +194,6 @@ Client 0 due Tuesday this week
     * placeholder
 
 {{% /columns %}}
-{{< /card >}}
 
 ### Session 09
 Week of October 26th
@@ -218,8 +202,7 @@ Week of October 26th
 Client 1 due Tuesday this week
 {{% /hint %}}
 
-{{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
     * placeholder
@@ -232,7 +215,6 @@ Client 1 due Tuesday this week
     * placeholder
 
 {{% /columns %}}
-{{< /card >}}
 
 ### Session 10
 Week of November 2nd
@@ -241,8 +223,7 @@ Week of November 2nd
 Client 2, Sprint 2 due Tuesday this week
 {{% /hint %}}
 
-{{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
     * placeholder
@@ -255,7 +236,6 @@ Client 2, Sprint 2 due Tuesday this week
     * placeholder
 
 {{% /columns %}}
-{{< /card >}}
 
 ### Session 11
 Week of November 9th
@@ -264,8 +244,7 @@ Week of November 9th
 Client 3 due this week
 {{% /hint %}}
 
-{{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
     * placeholder
@@ -278,7 +257,6 @@ Client 3 due this week
     * placeholder
 
 {{% /columns %}}
-{{< /card >}}
 
 ### Session 12
 Week of November 16th
@@ -287,8 +265,7 @@ Week of November 16th
 Client 4 due this week
 {{% /hint %}}
 
-{{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
     * placeholder
@@ -301,7 +278,6 @@ Client 4 due this week
     * placeholder
 
 {{% /columns %}}
-{{< /card >}}
 
 {{% hint danger %}}
 Reminder - NO CLASS BETWEEN 11/24 and 11/30
@@ -316,8 +292,7 @@ Week of November 30th
 Sprint 3 due this week
 {{% /hint %}}
 
-{{< card >}}
-{{% columns ratio="2:1" %}}
+{{% columns %}}
 
 - Topics
     * placeholder
@@ -330,7 +305,6 @@ Sprint 3 due this week
     * placeholder
 
 {{% /columns %}}
-{{< /card >}}
 
 ### Session 14
 Week of December 7th
