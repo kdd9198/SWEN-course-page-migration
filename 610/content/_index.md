@@ -59,7 +59,7 @@ DB0, Slack/Discord, and Trello setup due Tuesday this week
     * [Domain analysis - individual](/topics/domain-analysis#exercises)
     * [Domain analysis - team](/topics/domain-analysis#exercises)
     * [Gitlab repository - team](/topics/version-control-concepts#exercises)
-    * DB 1 placeholder
+    * [DB1 - Chat](/docs/project/db-project/chat-system#db1-initial-schema-test-data-set) - [DB1 - Rideshare](/docs/project/db-project/rideshare#db1-initial-schema-test-data-set) - [DB1 - library](/docs/project/db-project/library#db1-initial-schema-test-data-set)
 
 {{% /columns %}}
 {{< /card >}}
@@ -80,7 +80,7 @@ DB1, and Individual Domain Analysis due Tuesday this week
     * effective communication placeholder
 
 - Assignments
-    * DB2 placeholder
+    * [DB2 - Chat](/docs/project/db-project/chat-system#db2-crud--design-iteration) - [DB2 - Rideshare](/docs/project/db-project/rideshare#db2-crud--design-iteration) - [DB2 - library](/docs/project/db-project/library#db2-crud--design-iteration)
     * [Trello Team Initiation](/assignments/trello-initiation)
     * [Complete Sprint 0](/docs/project#inception-phase--sprint-0)
 
@@ -106,7 +106,7 @@ DB2, Project Requirements, and Sprint 0 (includes Team domain model, and Trello 
 
 - Assignments
     * placeholder
-    * placeholder
+    * [DB3 - Chat](/docs/project/db-project/chat-system#db3-expanding-your-schema) - [DB3 - Rideshare](/docs/project/db-project/rideshare#db3-expanding-your-schema) - [DB3 - library](/docs/project/db-project/library#db3-expanding-your-schema)
     * placeholder
 
 {{% /columns %}}
