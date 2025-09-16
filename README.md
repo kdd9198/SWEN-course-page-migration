@@ -15,10 +15,10 @@ git submodule update
 New content pages can be added by using the `hugo new content` command in the site's directory, including the target directory and name for the page content file. For example:
 
 ```
-hugo new content topics/new-topic.md --kind single
+hugo new content topics/new-topic.md --kind topic
 ```
 
-The above example will create a content file called `new-topic.md` in the `content/topics` directory using the site's "single" archetype. Omitting `--kind single` from the command will create the content file using the Book theme's default archetype instead
+The above example will create a content file called `new-topic.md` in the `content/topics` directory using the site's `topic.md` archetype. Omitting `--kind topic` from the command will create the content file using the Book theme's default archetype instead
 
 ## Testing and Deployment
 
