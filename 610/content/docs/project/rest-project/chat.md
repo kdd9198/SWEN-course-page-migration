@@ -22,9 +22,7 @@ In addition, we’ll be looking at getting a few types of resource methods worki
 * Search for messages
 * List all messages in a particular channel
 
-These are not the actual APIs, they are the descriptive names of the functionality provided by the APIs.
-
-Remember that RESTful APIs operate on resources. In the case of Chat data, the resource is the one of the tables in your Chat DB. The APIs, will be various operations on the table(s).
+These are not the actual APIs, they are the descriptive names of the functionality provided by the APIs. Remember that RESTful APIs operate on resources. In the case of Chat data, the resource is the one of the tables in your Chat DB. The APIs, will be various operations on the table(s).
 
 For example, **List All Users** could look like `/users` and would return all the the rows and columsn from the users table.
 
