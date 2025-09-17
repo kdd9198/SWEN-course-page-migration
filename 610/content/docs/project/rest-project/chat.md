@@ -47,7 +47,7 @@ To implement the functionality, use the above information to name your resources
 
 {{< snippet "/snippets/rest-project/rest1-grading.md" >}}
 
-## REST2: CRUD
+## REST2: CRUD and Authentication
 
 Create a branch `rest2-dev`. Please tag your code as `rest2` on the master branch when it is merged.
 

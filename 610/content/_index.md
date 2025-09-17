@@ -119,7 +119,7 @@ DB3 due Tuesday this week
     * placeholder
 
 - Assignments
-    * placeholder
+    * [Rest 1 - Chat](/docs/project/rest-project/chat#rest1-basic-resources-and-resource-methods) - [Rest 1 - Rideshare](/docs/project/rest-project/rideshare#rest1-basic-resources-and-resource-methods)
     * placeholder
     * placeholder
 
@@ -142,7 +142,7 @@ Rest 1 due Tuesday this week
     * placeholder
 
 - Assignments
-    * placeholder
+    * [Rest 2 - Chat](/docs/project/rest-project/chat#rest2-crud-and-authentication) - [Rest 2 - Rideshare](/docs/project/rest-project/rideshare#rest2-crud)
     * placeholder
     * placeholder
 
