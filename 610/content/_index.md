@@ -98,9 +98,8 @@ DB2, Project Requirements, and Sprint 0 (includes Team domain model, and Trello 
     * placeholder
 
 - Assignments
-    * placeholder
+    * [Sprint 1 plan - team](/docs/project/sprint-planning#sprint-1-planning)
     * [DB3 - Chat](/docs/project/db-project/chat-system#db3-expanding-your-schema) - [DB3 - Rideshare](/docs/project/db-project/rideshare#db3-expanding-your-schema) - [DB3 - library](/docs/project/db-project/library#db3-expanding-your-schema)
-    * placeholder
 
 {{% /columns %}}
 
@@ -143,8 +142,7 @@ Rest 1 due Tuesday this week
 
 - Assignments
     * [Rest 2 - Chat](/docs/project/rest-project/chat#rest2-crud-and-authentication) - [Rest 2 - Rideshare](/docs/project/rest-project/rideshare#rest2-crud)
-    * placeholder
-    * placeholder
+    * [Complete Sprint 1](/docs/project#elaboration-phase--sprint-1)
 
 {{% /columns %}}
 
@@ -164,8 +162,7 @@ Sprint 1 due Tuesday this week
 
 - Assignments
     * placeholder
-    * placeholder
-    * placeholder
+    * [Sprint 2 plan - team](/docs/project/sprint-planning#sprint-2-and-3-planning)
 
 {{% /columns %}}
 
@@ -231,8 +228,8 @@ Client 2, Sprint 2 due Tuesday this week
     * placeholder
 
 - Assignments
-    * placeholder
-    * placeholder
+    * [Sprint 2 due](/docs/project#construction-phase--sprint-2)
+    * [Sprint 3 plan - team](/docs/project/sprint-planning#sprint-2-and-3-planning)
     * placeholder
 
 {{% /columns %}}
@@ -300,9 +297,7 @@ Sprint 3 due this week
     * placeholder
 
 - Assignments
-    * placeholder
-    * placeholder
-    * placeholder
+    * [Sprint 3 due](/docs/project#construction-phase--sprint-3)
 
 {{% /columns %}}
 
@@ -314,5 +309,5 @@ NO CLASS!!
 {{% /hint %}}
 
 {{% hint danger %}}
-Sprint 4 due on the 13th of December
+[Sprint 4 due on the 13th of December](/docs/project#transition-phase--sprint-4)
 {{% /hint %}}
