@@ -31,7 +31,7 @@ Finally, **Show details about a specific account** would return details on one s
 
 To implement the functionality, use the above information to name your resources, and then create endpoints and resource methods for those resources. All responses must be in JSON format and follow the [RESTful guidelines](https://restfulapi.net/).
 
-**Test Case Sketches**
+### Test Case Sketches
 
 * Implement tests that cover at least the following scenarios and match the stated results:
 * When calling the API for **List All Account Information**, you should get an array with N different entries in it. Pre-calculate (based on your data) how many rows should exist and make sure the API returns that many rows.
