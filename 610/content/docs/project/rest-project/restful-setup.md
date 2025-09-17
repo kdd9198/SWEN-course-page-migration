@@ -309,4 +309,236 @@ These first few instructions will be exactly the same as the DB project, but the
             self.assertTrue(version[0].startswith('PostgreSQL'))
     ```
 
+22. Now let’s set up our schema and test data. Create this test called `tests/db/test_db_schema.py`
+
+    ```python
+    import unittest
+    from tests.test_utils import *
+
+    class TestDBSchema(unittest.TestCase):
+
+        def test_rebuild_tables(self):
+            """Rebuild the tables"""
+            post_rest_call(self, 'http://localhost:5000/manage/init')
+            count = get_rest_call(self, 'http://localhost:5000')
+            self.assertEqual(len(count), 1)
+
+        def test_rebuild_tables_is_idempotent(self):
+            """Drop and rebuild the tables twice"""
+            post_rest_call(self, 'http://localhost:5000/manage/init')
+            post_rest_call(self, 'http://localhost:5000/manage/init')
+            count = get_rest_call(self, 'http://localhost:5000')
+            self.assertEqual(len(count), 1)
+    ```
+
+23. You’ll also need this test utility, called `tests/test_utils.py`
+
+    ```python
+    import requests
+    # The client (unittest) can only contact the server using RESTful API calls
+
+
+    # For API calls using GET.  params and header are defaulted to 'empty'
+
+    def get_rest_call(test, url, params = {}, get_header = {}, expected_code = 200):
+        response = requests.get(url, params, headers = get_header)
+        test.assertEqual(expected_code, response.status_code,
+                        f'Response code to {url} not {expected_code}')
+        return response.json()
+
+    # For API calls using POST.  params and header are defaulted to 'empty'
+
+    def post_rest_call(test, url, params = {}, post_header = {},expected_code = 200):
+        '''Implements a REST api using the POST verb'''
+        response = requests.post(url, params, headers = post_header)
+        test.assertEqual(expected_code, response.status_code,
+                        f'Response code to {url} not {expected_code}')
+        return response.json()
+
+    # For API calls using PUT.  params and header are defaulted to 'empty'
+
+    def put_rest_call(test, url, params = {}, put_header = {},expected_code = 200):
+        '''Implements a REST api using the PUT verb'''
+        response = requests.put(url, params, headers = put_header)
+        test.assertEqual(expected_code, response.status_code,
+                        f'Response code to {url} not {expected_code}')
+        return response.json()
+
+    # For API calls using DELETE.  header is defaulted to 'empty'
+
+    def delete_rest_call(test, url, delete_header={}, expected_code = 200):
+        '''Implements a REST api using the DELETE verb'''
+        response = requests.delete(url, headers = delete_header)
+        test.assertEqual(expected_code, response.status_code,
+                        f'Response code to {url} not {expected_code}')
+        return response.json()
+    ```
+
+24. We are now going to the the unit tests (so you will need a 2nd terminal).
+
+    **Make sure your server is still running.**
+
+    The tests should pass, hopefully.
+    
+    * To see details of the unittests, use the -v switch i.e. python -m unittest -v
+    * At this point, your file structure should look like this now:
+
+    ```
+    rest-abc123/                         // your username instead of abc123
+    |   .gitignore
+    |   .gitlab-ci.yml
+    |   requirements.txt
+    |
+    +---config
+    |       db.yml
+    |       gitlab-credentials.yml
+    |
+    +---src
+    |   |   server.py
+    |   |   __init__.py
+    |   |
+    |   +---api
+    |   |   |   hello_world.py
+    |   |   |   management.py
+    |   |   |   __init__.py
+    |   |   |
+    |   |
+    |   +---db
+    |   |   |   example.py
+    |   |   |   schema.sql
+    |   |   |   swen610_db_utils.py
+    |   |   |   test_data.sql
+    |   |   |   __init__.py
+    |   |   |
+    |   |
+    |
+    +--tests
+        |   test_utils.py
+        |   __init__.py
+        |
+        +---api
+        |   |   __init__.py
+        |   |
+        |
+        +---db
+        |   |   test_db_schema.py
+        |   |   test_postgresql.py
+        |   |   __init__.py
+        |   |
+    ```
+
+25. We’re not quite done. We need some automated tests for our API! This is crucial. We’re going to be using a Python library that simulates a browser called `Requests`. The Requests library is essentially a wrapper for opening up a network socket and sending HTTP data into it, and not much more. Make a test called `tests/api/test_example.py` with this content:
+
+    ```python
+    import unittest
+    from tests.test_utils import *
+
+
+    class TestExample(unittest.TestCase):
+
+        def setUp(self):  
+            """Initialize DB using API call"""
+            post_rest_call(self, 'http://localhost:5000/manage/init')
+            print("DB Should be reset now")
+
+        def test_hello_world(self):
+            expected = { '1' : 'hello, world!' }
+            actual = get_rest_call(self, 'http://localhost:5000')
+            self.assertEqual(expected, actual)
+    ```
+
+    You may notice that we are calling a utility method called `get_rest_call()` and another called `post_rest_call()`. We made this method ourselves to reduce the repeated code and test that the call was successful (you will find this function in `tests/test_utils.py`). Feel free to make this your own.
+    
+    Also, you will notice we are using a RESTful API in the `setUp()` function to perform the DB init within unittest setup that we used to call directly. It’s all Client-Server now, so we use the `management` endpoint to set up the DB.
+
+26. Let’s run our tests. Hopefully they pass now. (Your output should be something like this)
+
+    ```
+    python -m unittest -v
+    test_hello_world (tests.api.test_example.TestExample) ... DB Should be reset now
+    ok
+    test_rebuild_tables (tests.db.test_db_schema.TestDBSchema)
+    Rebuild the tables ... ok
+    test_rebuild_tables_is_idempotent (tests.db.test_db_schema.TestDBSchema)
+    Drop and rebuild the tables twice ... ok
+    test_can_connect (tests.db.test_postgresql.TestPostgreSQL) ... ok
+    ```
+
+    Your file structure should look like this now:
+
+    ```
+    rest-abc123/                         // your username instead of abc123
+    |   .gitignore
+    |   .gitlab-ci.yml
+    |   requirements.txt
+    |
+    +---config
+    |       db.yml
+    |       gitlab-credentials.yml
+    |
+    +---src
+    |   |   server.py
+    |   |   __init__.py
+    |   |
+    |   +---api
+    |   |   |   hello_world.py
+    |   |   |   management.py
+    |   |   |   __init__.py
+    |   |   |
+    |   |
+    |   +---db
+    |   |   |   example.py
+    |   |   |   schema.sql
+    |   |   |   swen610_db_utils.py
+    |   |   |   test_data.sql
+    |   |   |   __init__.py
+    |   |   |
+    |   |
+    |
+    +--tests
+        |   test_utils.py
+        |   __init__.py
+        |
+        +---api
+        |   |   test_example.py
+        |   |   __init__.py
+        |   |
+        |
+        +---db
+        |   |   test_db_schema.py
+        |   |   test_postgresql.py
+        |   |   __init__.py
+        |   |
+    ```
+
+27. Once it’s working - commit and push to GitLab. Make sure the CI works there as well.
+
+28. **Important step.** Break the code in a couple of ways and note the error messages. Specifically, do the following:
+
+    * Add an Python syntax error in `src/api/hello_world.py` while the server is running. Note that the server dies as soon as you hit Save in your editor. Going to your browser will tell you the server can’t be found.
+    * Add a runtime exception to `src/api/hello_world.py`, say add `foo.hello` that will cause a `NameError: foo not found`. Go to http://localhost:5000 in your browser. You’ll get a nifty debugging tool that shows you the stacktrace. Go to a line in the stacktrace and open up the console and run some Python within that stack frame. You’ll need to enter a PIN - that was printed to stdout when you started the server.
+    * Stop the server and then run your tests. You’ll see lots of text fly by and probably an error that looks like `NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03C88510>: Failed to establish a new connection)`.
+
+    This is a really helpful practice. Whenever you “get things working” on a new piece of technology, think about the kinds of mistakes you might make, intentionally do them, and look at how that presents itself in your development environment. That way you are less likely to get thrown off by cryptic error messages later on.
+
 {{% /steps %}}
+
+{{% hint warning %}}
+
+No need to tag your finished product at this time. This will be due along with `rest1`.
+
+{{% /hint %}}
+
+### Specific Issues
+
+#### PyCharm users 
+
+Your IDE will tell you that imports cannot be resolved. To fix this, right-click `src` on the project and click Mark as Sources Root.
+
+#### Mac users
+
+A (recent) update on OSX uses the default Flask port (5000) for other apps (Airplay?). This prevents Flask from listening on the same port. You can either disable Airplay (probably not the best idea), or change the Flask server port.
+
+* To change the Flask port, modify the `app.run(debug=True)` line in `server.py` to `app.run(debug=True, port=4999)`, and make the corresponding change when calling the REST Api from the client side e.g.
+* `actual = get_rest_call(self, 'http://localhost:5000')` becomes `actual = get_rest_call(self, 'http://localhost:4999')`. Obviously, the port doesn’t have to be `4999` - it just needs to be some unused port.
+* On some MACs `localhost` doesn’t correctly get mapped to the loopback port (don’t ask me why …). You may need to use `127.0.0.1` instead of localhost (or manually modify your `hosts` file)
