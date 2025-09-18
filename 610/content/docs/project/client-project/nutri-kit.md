@@ -52,7 +52,7 @@ You will implement the following controls and behaviour for your webpage (`index
 * Add a text box (textarea) control with the following initial content `Food Type...`
     * Use the `<textarea>` tag. Set the control to be non-expandable. Set the rows and columns properties to your liking. Position the control in the center.
 * Add a small javascript function (place in `<HEAD>` ) that will reflect the value of the selection of the SELECT tag (e.g. Protein, Fruit, Vegetables, …) as soon as the value changes. Use the value of the current selection in the radio button group to set the colour of the font in the text area.
-    * HINT: Use the onchange event and document.getElementByName or get clever with onclick and pass in the object instance
+    * HINT: Use the `onchange` event and `document.getElementByName` or get clever with onclick and pass in the object instance
 * Use style attributes to adjust the position of controls (so everything is not at the edges or clustered together). Look at the sample page and try to get as close as possible to the centering and left/ right/ top/ bottom positioning shown in the screen-shot. NOTE: In part-0, we want you to put the styles in-line, and not use CSS. That will come later.
 
 ### Grading
