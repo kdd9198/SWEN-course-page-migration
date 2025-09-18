@@ -63,3 +63,19 @@ Web Page and Actions:
 * Display box: 1 points
 * Layout & Alignment: 2
 * Javascript dynamic updates: 5
+
+### Sample Output
+
+UI Specifications are often page mockups. Your page should be similar to this…
+
+#### Sample Page 1
+
+![Sample Page 1](/images/client-project/club-0.0.jpg)
+
+#### Sample Page 2
+
+![Sample Page 2](/images/client-project/club-0.1.jpg)
+
+#### Sample Page 3
+
+![Sample Page 3](/images/client-project/club-0.2.jpg)
