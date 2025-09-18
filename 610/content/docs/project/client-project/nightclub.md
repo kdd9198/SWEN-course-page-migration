@@ -160,3 +160,19 @@ UI Specifications are often page mockups. Your page should be similar to this…
 #### Sample Page 2
 
 ![nightclub 1 sample 2](/images/client-project/club-1.1.jpg)
+
+## Client-2: Port to React
+
+{{< snippet "/snippets/client-project/client2-overview.md" >}}
+
+### Getting Started with React
+
+{{< snippet "/snippets/client-project/client2-getting-started.md" >}}
+
+### Porting to React
+
+{{< snippet "/snippets/client-project/client2-porting.md" >}}
+
+### Grading Client-2
+
+{{< snippet "/snippets/client-project/client2-grading.md" >}}
