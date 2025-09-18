@@ -57,6 +57,7 @@ You will implement the following controls and behaviour for your webpage (`index
 Grading: 10 points total
 
 Web Page and Actions:
+
 * Title & Headings: 1 point
 * Dropdown list: 1 points
 * Display box: 1 points
