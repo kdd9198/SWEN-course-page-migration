@@ -1,0 +1,1 @@
+This initial assignment will introduce you to the basics of HTML. In this initial assignment, we will not use CSS. Use style attributes on the appropriate HTML tags to adjust the appearance. When finished, tag the commit as `client-0`
