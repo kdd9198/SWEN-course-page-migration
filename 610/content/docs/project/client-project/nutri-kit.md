@@ -83,3 +83,9 @@ UI Specifications are often page mockups. Your page should be similar to this…
 #### Sample Page 3
 
 ![Sample Page 3](/images/client-project/nutrikit-0.2.jpg)
+
+## Client 1
+
+### Setup
+
+{{< snippet "/snippets/client-project/client1-setup.md" >}}
