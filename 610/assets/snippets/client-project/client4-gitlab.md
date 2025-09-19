@@ -1,0 +1,1 @@
+Since the data is now loaded from a backend database (which will not exist in the gitlab deployment), the gitlab webpages will no longer be provide full functionality. Just make sure your webpage display handles that situation (i.e. handles the fact that the API call will fail), and provides a reasonable default behaviour.

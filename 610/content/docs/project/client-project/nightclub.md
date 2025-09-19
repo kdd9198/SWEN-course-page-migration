@@ -224,3 +224,48 @@ Points: 60 points total
 * (15 points) Responsive features and guidelines
 * (15 points) Club information and CRUD operations
 * (10 points) Filter clubs
+
+## Client-4: Full Stack
+
+{{< snippet"/snippets/client-project/client4-overview.md" >}}
+
+### Setup
+
+{{< snippet"/snippets/client-project/client4-setup.md" >}}
+
+### Items to Note
+
+{{< snippet"/snippets/client-project/client4-note.md" >}}
+
+### Running the Flask server
+
+{{< snippet"/snippets/client-project/client4-flask-server.md" >}}
+
+### Running your React Client code
+
+{{< snippet"/snippets/client-project/client4-react-client.md" >}}
+
+### CI/ gitlab pages
+
+{{< snippet"/snippets/client-project/client4-gitlab.md" >}}
+
+### Nightclub Specifics
+
+* Keep the initial data in a DB on the ‘server side’. Include all information in a table/ tables of your own design. When your page loads, it should get the data from the server. Provide a `GET` API to retrieve that data.
+* When the button changes the current count, the code will update the data on the server (`PUT`), and the client code will retrieve the updated data from the server to refresh the display. Provide an appropriate API(s).
+* When you change the club information (name, location … ), use `PUT` to update the data on the server.
+* Provide a `POST` method to create a new club, and a `DELETE` method to remove a club. Update the DB accordingly.
+* In all cases, the web page should be displaying the data it retrieves from the DB using the REST API
+    * Don’t leave modified data that should be committed to the DB cached in browser/ client data
+    * When the user is filling in a form for new or modified data, don’t commit the data to the DB until the user confirms the changes. Make sure the user can cancel the action if they choose to do so.
+
+### Grading Client-4
+
+Points: 60 points total
+
+* (5 points) Builds on the CI by Lab Day
+* (5 points) Quality feedback given
+* (10 points) Flask server and DB properly setup and initialized
+* (10 points) API to load initial data on client (GET)
+* (20 points) API to add/ modify data (POST/ PUT)
+* (10 points) API to delete data (DELETE)
