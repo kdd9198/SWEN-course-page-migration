@@ -182,7 +182,10 @@ UI Specifications are often page mockups. Your page should be similar to this…
 
 {{< snippet "/snippets/client-project/client2-grading.md" >}}
 
+### Nightclub Specifics
 
+* Your state will likely be a mapping of clubs and counts.
+* You DON’T need to store the color information - it reacts to the state and renders a color based on the counts.
 
 ## Client-3: Responsive Design, New Features
 
@@ -195,3 +198,29 @@ UI Specifications are often page mockups. Your page should be similar to this…
 ### Responsive Design
 
 {{< snippet "/snippets/client-project/client3-responsive-design.md" >}}
+
+### Nightclub Specifics
+
+* Let’s change the UI to not have radio buttons anymore. Instead, each club will have it’s own increment/ decrement buttons.
+* Make the button to **decrement** and button to **increment**, are well separated (increment in the left corner, decrement in the right corner). Also, make the colours for each distinct, for easy user recognition (you can pick the colours)
+    * Once the max capacity has been reached, disable the `increment` button. When the count goes below max capacity, re-enable the `increment` button.
+    * Disable the `decrement` button if the count is zero; enable it when it is higher.
+* Add information for the club. Name, Location (city), music genre (rock, pop, synth, metal, …). Show this in the display for each club.
+* Add the ability to **change the information** of a given club. This includes the name, location, etc. and thresholds (all valid fields, basically). Popupate the existing values in the edit dialog so it is easy to modify.
+* Add the ability to **add new clubs and remove any clubs**, including all of the information above.
+    * Start off with a few initial clubs, and then allow add/ remove operations.
+    * **Provide defaults** for the threshholds when adding a new club. Make the values realistic e.g. - If Max Capacity is 100, Yellow threshold is 80% of the capacity. Allow the user to override the defaults when they add a club. Obviously, the user will need to enter all other values.
+    * Provide a simple way to delete a given club i.e. don’t force the user to type!
+* Use pop-up Reactstrap Modal dialogs to make data-entry easy
+* **Filter** which clubs are shown by their location city, e.g. “NYC or London …".
+
+### Grading Client-3
+
+Points: 60 points total
+
+* (5 points) Builds on the CI by Lab Day
+* (5 points) Quality feedback given
+* (10 points) Decrement and increment buttons
+* (15 points) Responsive features and guidelines
+* (15 points) Club information and CRUD operations
+* (10 points) Filter clubs
