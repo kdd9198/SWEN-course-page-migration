@@ -182,11 +182,6 @@ UI Specifications are often page mockups. Your page should be similar to this…
 
 {{< snippet "/snippets/client-project/client2-grading.md" >}}
 
-### Nightclub Specifics
-
-* Your state will likely be a mapping of clubs and counts.
-* You DON’T need to store the color information - it reacts to the state and renders a color based on the counts.
-
 ## Client-3: Responsive Design, New Features
 
 {{< snippet "/snippets/client-project/client3-overview.md" >}}

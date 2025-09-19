@@ -181,3 +181,24 @@ UI Specifications are often page mockups. Your page should be similar to this…
 #### Sample Page 3: Remove Item
 
 ![nutrikit 1 sample 3](/images/client-project/nutrikit-1.2.png)
+
+## Client-2: Port to React
+
+{{< snippet "/snippets/client-project/client2-overview.md" >}}
+
+### Getting Started with React
+
+{{< snippet "/snippets/client-project/client2-getting-started.md" >}}
+
+### Porting to React
+
+{{< snippet "/snippets/client-project/client2-porting.md" >}}
+
+### Nutrikit Specifics
+
+* Your state will likely be a collection of what the menu items are and which ones are selected.
+* Your state would also likely need to store which category is currently selected. Perhaps that needs to be in the top-level state, or perhaps that’s a state variable for the component representing the menu
+
+### Grading Client-2
+
+{{< snippet "/snippets/client-project/client2-grading.md" >}}
