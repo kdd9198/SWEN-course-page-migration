@@ -202,3 +202,85 @@ UI Specifications are often page mockups. Your page should be similar to this…
 ### Grading Client-2
 
 {{< snippet "/snippets/client-project/client2-grading.md" >}}
+
+## Client-3: Responsive Design, New Features
+
+{{< snippet "/snippets/client-project/client3-overview.md" >}}
+
+### Client 3 setup
+
+{{< snippet "/snippets/client-project/client3-setup.md" >}}
+
+### Responsive Design
+
+{{< snippet "/snippets/client-project/client3-responsive-design.md" >}}
+
+### Nutrikit Specifics
+
+* Make the **add** and **remove** two separate buttons for “Selected Items”
+* Add **additional nutrition information** to menu items, including total fat, saturated fat, trans fat, protein, and total carbohydrate. Assume this data is pre-loaded, as before. Look up reasonable examples for your built-in data. You can also use this for [starter data](/data/foods.json) if you wish. Adapt for your code as needed.
+* Add a **simple visual representation** of both a single food and the total, similar to a [standard nutrition label](https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label). Add visual indicators (e.g. colors, icons, visual cues) for when the value is considered “high” (according to the FDA guidelines we just linked to).
+* Provide a way to edit a food item’s values.
+* Use pop-up Reactstrap Modal dialogs to make data-entry easy
+* Add a **total calorie goal** and show the progress toward that. We recommend the [Progress Bar](https://reactstrap.github.io/?path=/docs/components-progress--progress) as a simple way to represent this. Default to 2,000 calories but allow people to change this number for them.
+* Improve the UI according keeping in mind UI design guidlines, simplifying as best you can.
+
+### Grading Client-3
+
+Points: 60 points total
+
+* (5 points) Builds on the CI by Lab Day
+* (5 points) Quality feedback given
+* (5 points) 2 buttons for add/ remove
+* (5 points) Additional nutrition information loaded
+* (15 points) Responsive features and guidelines
+* (15 points) Aggregated nutrition label; single food item **and** total with visual indicators
+* (10 points) Total calorie goal progress bar, with edit capability for goal
+
+## Client-4: Full Stack
+
+{{< snippet"/snippets/client-project/client4-overview.md" >}}
+
+### Setup
+
+{{< snippet"/snippets/client-project/client4-setup.md" >}}
+
+### Items to Note
+
+{{< snippet"/snippets/client-project/client4-note.md" >}}
+
+### Running the Flask server
+
+{{< snippet"/snippets/client-project/client4-flask-server.md" >}}
+
+### Running your React Client code
+
+{{< snippet"/snippets/client-project/client4-react-client.md" >}}
+
+### CI/ gitlab pages
+
+{{< snippet"/snippets/client-project/client4-gitlab.md" >}}
+
+### Nutrikit Specifics
+
+* Keep the initial nutritional data in a DB on the ‘server side’. Include all information in a table/ tables of your own design. When your page loads, it should get the data from the server. Provide a `GET` API to retrive that data. Provide any filters necessary for your design for retrieving data.
+* Allow the ability to modify nutrition data for existing food items, update the DB accordingly (`PUT` API)
+* Add the ability to create new food items in an existing category (`POST` API)
+* Add the ability to delete a particular food item (`DELETE` API)
+* Add the ability to have goals for each nutritional value.
+* Provide a progress bar to show status vs. the goal for each nutritional value
+* Keep the functionality for moving items between the category items list and selected items list, but you do not need to update the DB with that information, since it is transitory information.
+* In all cases, the web page should be displaying the data it retrieves from the DB using the REST API
+    * Don’t leave modified data that should be committed to the DB cached in browser/ client data
+    * When the user is filling in a form for new or modified data, don’t commit the data to the DB until the user confirms the changes. Make sure the user can cancel the action if they choose to do so.
+
+### Grading Client-4
+
+Points: 60 points total
+
+* (5 points) Builds on the CI by Lab Day
+* (5 points) Quality feedback given
+* (10 points) All prior functionality still works!
+* (5 points) Flask server and DB properly setup and initialized
+* (15 points) API to load initial data on client (GET)
+* (20 points) Dialog and API to update/ create data (PUT/ POST)
