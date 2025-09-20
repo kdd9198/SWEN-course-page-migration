@@ -161,7 +161,7 @@ Sprint 1 due Tuesday this week
     * placeholder
 
 - Assignments
-    * placeholder
+    * [Client 0 - Nightclub](/docs/project/client-project/nightclub#client-0-startup-your-first-web-page) - [Client 0 - Nutrikit](/docs/project/client-project/nutri-kit#client-0-startup-your-first-web-page)
     * [Sprint 2 plan - team](/docs/project/sprint-planning#sprint-2-and-3-planning)
 
 {{% /columns %}}
@@ -186,7 +186,7 @@ Client 0 due Tuesday this week
     * placeholder
 
 - Assignments
-    * placeholder
+    * [Client 1 - Nightclub](/docs/project/client-project/nightclub#client-1) - [Client 1 - Nutrikit](/docs/project/client-project/nutri-kit#client-1)
     * placeholder
     * placeholder
 
@@ -207,9 +207,7 @@ Client 1 due Tuesday this week
     * placeholder
 
 - Assignments
-    * placeholder
-    * placeholder
-    * placeholder
+    * [Client 2 - Nightclub](/docs/project/client-project/nightclub#client-2-port-to-react) - [Client 2 - Nutrikit](/docs/project/client-project/nutri-kit#client-2-port-to-react)
 
 {{% /columns %}}
 
@@ -230,7 +228,7 @@ Client 2, Sprint 2 due Tuesday this week
 - Assignments
     * [Sprint 2 due](/docs/project#construction-phase--sprint-2)
     * [Sprint 3 plan - team](/docs/project/sprint-planning#sprint-2-and-3-planning)
-    * placeholder
+    * [Client 3 - Nightclub](/docs/project/client-project/nightclub#client-3-responsive-design-new-features) - [Client 3 - Nutrikit](/docs/project/client-project/nutri-kit#client-3-responsive-design-new-features)
 
 {{% /columns %}}
 
@@ -249,7 +247,7 @@ Client 3 due this week
     * placeholder
 
 - Assignments
-    * placeholder
+    * [Client 4 - Nightclub](/docs/project/client-project/nightclub#client-4-full-stack) - [Client 4 - Nutrikit](/docs/project/client-project/nutri-kit#client-4-full-stack)
     * placeholder
     * placeholder
 
