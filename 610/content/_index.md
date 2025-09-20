@@ -27,7 +27,7 @@ Week of August 24th
 
 - Topics
     * [Appreciation for Software Development Process](/topics/appreciation-for-software-development-process)
-    * inception placeholder
+    * [Introduction to Inception](/topics/openup-process-phases)
     * databases placeholder
 
 - Assignments
@@ -93,7 +93,7 @@ DB2, Project Requirements, and Sprint 0 (includes Team domain model, and Trello 
 {{% columns %}}
 
 - Topics
-    * placeholder
+    * [Introduction to Elaboration](/topics/openup-process-phases)
     * placeholder
     * placeholder
 
@@ -136,7 +136,7 @@ Rest 1 due Tuesday this week
 {{% columns %}}
 
 - Topics
-    * placeholder
+    * [Introduction to Construction](/topics/openup-process-phases)
     * placeholder
     * placeholder
 
@@ -290,7 +290,7 @@ Sprint 3 due this week
 {{% columns %}}
 
 - Topics
-    * placeholder
+    * [Introduction to Transition](/topics/openup-process-phases)
     * placeholder
     * placeholder
 
