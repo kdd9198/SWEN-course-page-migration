@@ -21,6 +21,8 @@ draft: true
 
 #### *Web Articles and Blogs*
 
+#### *Books*
+
 #### *Wikipedia*
 
 ### Class Lecture
