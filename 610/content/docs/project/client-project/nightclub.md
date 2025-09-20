@@ -2,7 +2,7 @@
 title: 'Nightclub'
 date: '2025-09-17T23:01:42-04:00'
 
-weight: 100
+weight: 200
 bookToC: true
 bookSearchExclude: false
 
