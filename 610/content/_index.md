@@ -115,7 +115,7 @@ DB3 due Tuesday this week
 - Topics
     * placeholder
     * placeholder
-    * placeholder
+    * [Backlog Refinement and Estimation](/topics/backlog-refinement-and-estimation)
 
 - Assignments
     * [Rest 1 - Chat](/docs/project/rest-project/chat#rest1-basic-resources-and-resource-methods) - [Rest 1 - Rideshare](/docs/project/rest-project/rideshare#rest1-basic-resources-and-resource-methods)
