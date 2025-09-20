@@ -112,3 +112,5 @@ As a User, I want to add a new task with a title, description, and due date so t
         2. As you create acceptance criteria, update your acceptance test plan.
         3. As a team perform planning poker on that story.
         4. Modify the Trello card with the points for this story; put it in the title of the card, such as "Register for a League (8)" means the *Register for a League* user story was assigned 8 story points
+
+![example screenshot of trello](/images/Planning_Poker_example_screenshot.png)
