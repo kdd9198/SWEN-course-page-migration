@@ -26,7 +26,7 @@ Week of August 24th
 {{% columns %}}
 
 - Topics
-    * appreciation placeholder
+    * [Appreciation for Software Development Process](/topics/appreciation-for-software-development-process)
     * inception placeholder
     * databases placeholder
 
