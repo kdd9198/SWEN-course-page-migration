@@ -109,7 +109,7 @@ In this iteration, you will add:
     * A rider should be able to mark themselves as “available”. When this happens, assume that the client (e.g. phone) will automatically supply a zip code based on the rider’s location
     * A driver should be able to see all available riders in a given zip code, along with their GPS coordinates and average rating. (Presumably, a separate mapping service would translate those GPS coordinates into distances - we won’t do this)
 * When a ride is arranged, but before pickup, both the rider and driver should be able to update their own location and see the location of the other.
-* Load test data from the provided [csv file](/downloads/csv/rideshare.csv) and add to the database.
+* Load test data from the provided [csv file](/data/rideshare.csv) and add to the database.
     * This contains a set of information on riders and drivers
     * NOTE: You will need to read the data and figure out a way to make it fit according to your DB schema (or do you need to modify your schema?). There can be inconsistencies in data format, some stray characters etc. Think through how to import this data using code, in a consistent, logical way.
 

@@ -111,7 +111,7 @@ In this iteration, you will add:
 * Marking a message as “read”
 * Changing your username, but if you do change your username then you cannot change it again for another six months.
 * Handling account suspensions. (Suspend a user; clear a suspension)
-* Import test data from the provided [csv file](/downloads/csv/whos_on_first.csv) and add to the database.
+* Import test data from the provided [csv file](/data/whos_on_first.csv) and add to the database.
     * This contains a chat session between Abbott and Costello discussing ‘Who’s on first’
     * NOTE: You will need to read the data and figure out a way to make it fit according to your DB schema (or do you need to modify your schema?). There can be inconsistencies in data format, some stray characters etc. Think through how to import this data using code, in a consistent, logical way.
 
