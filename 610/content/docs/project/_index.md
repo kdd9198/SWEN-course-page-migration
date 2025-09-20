@@ -11,7 +11,7 @@ draft: true
 
 ## Term Project
 
-This course has a project that you will work on through the term. You will choose 1 team mate. Teams will only be adjusted if need-be (as determined by the instructor). Refer to the Vision Document for more information.
+This course has a project that you will work on through the term. You will choose 1 team mate. Teams will only be adjusted if need-be (as determined by the instructor). Refer to the [Vision Document](/docs/project/vision) for more information.
 
 ### Individual Team Member Evaluation
 
@@ -34,7 +34,7 @@ Everyone on your team will receive a team grade based on the overall performance
 
 {{% /hint %}}
 
-All of the information you need about the project for Sprint 0 is in the [Vision document.](/docs/project/vision)
+All of the information you need about the project for Sprint 0 is in the [Vision document](/docs/project/vision).
 
 ### Project Activities
 
@@ -62,7 +62,7 @@ All of the information you need about the project for Sprint 0 is in the [Vision
 
 {{% /hint %}}
 
-### Project Activities (5% in final grasde)
+### Project Activities
 
 * Project submissions
     * [Sprint 1 release](/docs/project/git-releases) 
@@ -72,12 +72,11 @@ All of the information you need about the project for Sprint 0 is in the [Vision
 * Other dimensions
     * [Planning and managing of activities in Trello board](/docs/project/sprint-planning#sprint_1_planning) **throughout** and in support of **Sprint 1**
     * Gitlab use for version control
-    * Slack workspace use for team communication
+    * Slack/Discord workspace use for team communication
     * [Individual team member visibility in Trello board, Slack workspace, and Gitlab activities](#individual-team-member-evaluation)
     * Each team member completes their individual assignments and shows competency in the programming required by the project
-    * Refine your [10% feature enhancement(s) idea](/docs/project/vision)
 
-### Team Exercises (part of 13% for team exercises)
+### Team Exercises
 
 * [Gitlab repository](/topics/version-control-concepts)
 
@@ -89,9 +88,7 @@ All of the information you need about the project for Sprint 0 is in the [Vision
 * Your instructor will review your code to determine how well you are adhering to the architecture and design principles that were covered in class.
 * Your instructor will look at your [planning activity](/docs/project/sprint-planning) directly in your Trello planning board. Your planning activity should show consistent updating of the story cards as stories progress through the sprint activities.
 * Your instructor will look at your version control use, and team communications directly in your Gitlab repository, and Slack workspace, respectively.
-* Your instructor will determine individual contributions to the project directly from the evidence provided in your team's Trello board, Gitlab repository, and Slack workspace.
-
-### Grading Rubric
+* Your instructor will determine [individual contributions](#individual-team-member-evaluation) to the project directly from the evidence provided in your team's Trello board, Gitlab repository, and Slack workspace.
 
 ## Construction Phase / Sprint 2
 
