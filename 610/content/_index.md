@@ -101,7 +101,7 @@ DB2, Project Requirements, and Sprint 0 (includes Team domain model, and Trello 
 
 - Topics
     * [Introduction to Elaboration](/topics/openup-process-phases)
-    * placeholder
+    * [Sprint Planning](/topics/sprint-planning)
     * placeholder
 
 - Assignments
