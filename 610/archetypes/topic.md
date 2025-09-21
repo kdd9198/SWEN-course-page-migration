@@ -17,6 +17,8 @@ draft: true
 
 ### Study Resources
 
+For your study of this topic, use some of these resources.
+
 #### *Video Lessons*
 
 #### *Web Articles and Blogs*
