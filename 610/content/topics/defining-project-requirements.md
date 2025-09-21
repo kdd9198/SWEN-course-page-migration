@@ -27,7 +27,7 @@ This lesson teaches how to define the project requirements by identifying applic
 
 ### Study Resources
 
-For your study of this topic, use these resources. All three videos are assigned as a pre-class activity; start there. The articles and blogs provide additional context and examples; focus on the articles on spikes and [MVP](## "Minimum Viable Product). Use the Wikipedia articles as references for deeper exploration.
+For your study of this topic, use these resources. All three videos are assigned as a pre-class activity; start there. The articles and blogs provide additional context and examples; focus on the articles on spikes and MVP. Use the Wikipedia articles as references for deeper exploration.
 
 #### *Video Lessons*
 
