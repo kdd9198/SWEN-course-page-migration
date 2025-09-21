@@ -76,7 +76,7 @@ DB1, and Individual Domain Analysis due Tuesday this week
 
 - Topics
     * CRUD placeholder
-    * project requirementsplaceholder
+    * [Defining Project Requirements](/topics/defining-project-requirements)
     * effective communication placeholder
 
 - Assignments
