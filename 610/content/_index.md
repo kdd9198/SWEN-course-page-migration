@@ -77,7 +77,7 @@ DB1, and Individual Domain Analysis due Tuesday this week
 - Topics
     * CRUD placeholder
     * [Defining Project Requirements](/topics/defining-project-requirements)
-    * effective communication placeholder
+    * [Effective Team Communications](/topics/effective-team-communications)
 
 - Assignments
     * [DB2 - Chat](/docs/project/db-project/chat-system#db2-crud--design-iteration) - [DB2 - Rideshare](/docs/project/db-project/rideshare#db2-crud--design-iteration) - [DB2 - library](/docs/project/db-project/library#db2-crud--design-iteration)
