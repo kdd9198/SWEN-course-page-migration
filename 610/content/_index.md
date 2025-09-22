@@ -172,7 +172,7 @@ Sprint 1 due Tuesday this week
 - Topics
     * [Design and Code Communication & Code Reviews](/topics/design-and-code-communication-and-code-reviews)
     * [Code Coverage](/topics/code-coverage)
-    * placeholder
+    * [Web Frontends 1](/slides/01-intro-to-web-front-ends-part0.pptx)
 
 - Assignments
     * [Client 0 - Nightclub](/docs/project/client-project/nightclub#client-0-startup-your-first-web-page) - [Client 0 - Nutrikit](/docs/project/client-project/nutri-kit#client-0-startup-your-first-web-page)
@@ -197,14 +197,12 @@ Client 0 due Tuesday this week
 {{% columns %}}
 
 - Topics
-    * placeholder
-    * placeholder
-    * placeholder
+    * [Web Frontends 2 - css boogaloo](/slides/02-intro-to-web-front-ends-part1.pptx)
+    * [Javascript](/slides/javascript.pptx)
 
 - Assignments
     * [Client 1 - Nightclub](/docs/project/client-project/nightclub#client-1) - [Client 1 - Nutrikit](/docs/project/client-project/nutri-kit#client-1)
-    * placeholder
-    * placeholder
+    * [Design Documentation - team](/topics/design-documentation#exercises)
 
 {{% /columns %}}
 {{% /card %}}
@@ -220,9 +218,8 @@ Client 1 due Tuesday this week
 {{% columns %}}
 
 - Topics
-    * placeholder
-    * placeholder
-    * placeholder
+    * [Acceptance Testing](/topics/acceptance-testing)
+    * [ReactJS](/slides/react.js.pptx)
 
 - Assignments
     * [Client 2 - Nightclub](/docs/project/client-project/nightclub#client-2-port-to-react) - [Client 2 - Nutrikit](/docs/project/client-project/nutri-kit#client-2-port-to-react)
@@ -241,9 +238,7 @@ Client 2, Sprint 2 due Tuesday this week
 {{% columns %}}
 
 - Topics
-    * placeholder
-    * placeholder
-    * placeholder
+    * [Bootstrap](/slides/bootstrap.pptx)
 
 - Assignments
     * [Sprint 2 due](/docs/project#construction-phase--sprint-2)
