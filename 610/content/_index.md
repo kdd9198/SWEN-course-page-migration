@@ -171,7 +171,7 @@ Sprint 1 due Tuesday this week
 
 - Topics
     * [Design and Code Communication & Code Reviews](/topics/design-and-code-communication-and-code-reviews)
-    * placeholder
+    * [Code Coverage](/topics/code-coverage)
     * placeholder
 
 - Assignments
