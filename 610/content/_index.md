@@ -52,8 +52,8 @@ DB0, Slack/Discord, and Trello setup due Tuesday this week
 
 - Topics
     * [Domain Analysis](/topics/domain-analysis)
-    * git repos placeholder
-    * relationships/joints placeholder
+    * [Git Repositories](/slides/version-control.pptx)
+    * [Relationships and Joins](/slides/02-relationships-and-joins.pptx)
 
 - Assignments
     * [Domain analysis - individual](/topics/domain-analysis#exercises)
@@ -75,7 +75,7 @@ DB1, and Individual Domain Analysis due Tuesday this week
 {{% columns %}}
 
 - Topics
-    * CRUD placeholder
+    * [CRUD](/slides/03-crud-operations.pptx)
     * [Defining Project Requirements](/topics/defining-project-requirements)
     * [Effective Team Communications](/topics/effective-team-communications)
 
@@ -102,7 +102,8 @@ DB2, Project Requirements, and Sprint 0 (includes Team domain model, and Trello 
 - Topics
     * [Introduction to Elaboration](/topics/openup-process-phases)
     * [Sprint Planning](/topics/sprint-planning)
-    * placeholder
+    * [Aggregation](/slides/04-aggregation-in-relational-dbs.pptx)
+    * [Normalization](/slides/03.1-normalization.pptx)
 
 - Assignments
     * [Sprint 1 plan - team](/docs/project/sprint-planning#sprint-1-planning)
@@ -122,14 +123,13 @@ DB3 due Tuesday this week
 {{% columns %}}
 
 - Topics
-    * placeholder
-    * placeholder
-    * [Backlog Refinement and Estimation](/topics/backlog-refinement-and-estimation)
+    * [FLASK Intro](/slides/client-server-and-flask.pptx)
+    * [REST Intro](/slides/rest-apis-v2.pptx)
+    * [Backlog Refinement and Estimation](/topics/backlog-refinement-and-estimation#exercises)
 
 - Assignments
     * [Rest 1 - Chat](/docs/project/rest-project/chat#rest1-basic-resources-and-resource-methods) - [Rest 1 - Rideshare](/docs/project/rest-project/rideshare#rest1-basic-resources-and-resource-methods)
-    * placeholder
-    * placeholder
+    * [Backlog Refinement and Estimation Homework](/topics/backlog-refinement-and-estimation#)
 
 {{% /columns %}}
 {{% /card %}}
