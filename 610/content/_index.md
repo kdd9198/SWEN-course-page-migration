@@ -29,13 +29,13 @@ Week of August 24th
 - Topics
     * [Appreciation for Software Development Process](/topics/appreciation-for-software-development-process)
     * [Introduction to Inception](/topics/openup-process-phases)
-    * databases placeholder
+    * [Relational Databases](/slides/01-Intro-to-Relational-Databases.pptx)
 
 - Assignments
-    * team formation placeholder
+    * [Team Formation Spreadsheet](https://docs.google.com/spreadsheets/d/1Km6V28rogFmV8ZsSDcITUHUxuMRhfHGKjab-T0k_Ybk/edit?usp=sharing)
     * [DB 0 - Homework Setup](/docs/project/db-project)
     * slack setup placeholder
-    * trello team setup placeholder
+    * [Trello Team Setup](/assignments/trello-setup)
 
 {{% /columns %}}
 {{% /card %}}
