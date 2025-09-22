@@ -125,11 +125,11 @@ DB3 due Tuesday this week
 - Topics
     * [FLASK Intro](/slides/client-server-and-flask.pptx)
     * [REST Intro](/slides/rest-apis-v2.pptx)
-    * [Backlog Refinement and Estimation](/topics/backlog-refinement-and-estimation#exercises)
+    * [Backlog Refinement and Estimation](/topics/backlog-refinement-and-estimation)
 
 - Assignments
     * [Rest 1 - Chat](/docs/project/rest-project/chat#rest1-basic-resources-and-resource-methods) - [Rest 1 - Rideshare](/docs/project/rest-project/rideshare#rest1-basic-resources-and-resource-methods)
-    * [Backlog Refinement and Estimation Homework](/topics/backlog-refinement-and-estimation#)
+    * [Backlog Refinement and Estimation Homework](/topics/backlog-refinement-and-estimation#exercises)
 
 {{% /columns %}}
 {{% /card %}}
