@@ -149,7 +149,7 @@ Rest 1 due Tuesday this week
 - Topics
     * [Introduction to Construction](/topics/openup-process-phases)
     * placeholder
-    * [Authentication](/slides/suthentication.pptx)
+    * [Authentication](/slides/authentication.pptx)
     * [Unit Testing](/slides/basic-unit-testing-theory.pdf)
 
 - Assignments
@@ -170,7 +170,7 @@ Sprint 1 due Tuesday this week
 {{% columns %}}
 
 - Topics
-    * placeholder
+    * [Design and Code Communication & Code Reviews](/topics/design-and-code-communication-and-code-reviews)
     * placeholder
     * placeholder
 
