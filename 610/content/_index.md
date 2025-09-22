@@ -149,7 +149,8 @@ Rest 1 due Tuesday this week
 - Topics
     * [Introduction to Construction](/topics/openup-process-phases)
     * placeholder
-    * placeholder
+    * [Authentication](/slides/suthentication.pptx)
+    * [Unit Testing](/slides/basic-unit-testing-theory.pdf)
 
 - Assignments
     * [Rest 2 - Chat](/docs/project/rest-project/chat#rest2-crud-and-authentication) - [Rest 2 - Rideshare](/docs/project/rest-project/rideshare#rest2-crud)
