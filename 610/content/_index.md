@@ -34,7 +34,7 @@ Week of August 24th
 - Assignments
     * [Team Formation Spreadsheet](https://docs.google.com/spreadsheets/d/1Km6V28rogFmV8ZsSDcITUHUxuMRhfHGKjab-T0k_Ybk/edit?usp=sharing)
     * [DB 0 - Homework Setup](/docs/project/db-project)
-    * slack setup placeholder
+    * [Setup Slack/Discord Workspace - team](/assignments/setup-communications)
     * [Trello Team Setup](/assignments/trello-setup)
 
 {{% /columns %}}
