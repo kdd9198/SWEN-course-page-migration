@@ -260,13 +260,11 @@ Client 3 due this week
 
 - Topics
     * placeholder
-    * placeholder
-    * placeholder
 
 - Assignments
     * [Client 4 - Nightclub](/docs/project/client-project/nightclub#client-4-full-stack) - [Client 4 - Nutrikit](/docs/project/client-project/nutri-kit#client-4-full-stack)
-    * placeholder
-    * placeholder
+    * [Sprint retrospective analysis - team](/topics/sprint-retrospective-analysis#exercises)
+    * [Sprint retrospective action plan - team](/topics/sprint-retrospective-analysis#exercises)
 
 {{% /columns %}}
 {{% /card %}}
@@ -282,14 +280,12 @@ Client 4 due this week
 {{% columns %}}
 
 - Topics
-    * placeholder
-    * placeholder
-    * placeholder
+    * [Defensive Coding](https://docs.google.com/presentation/d/1U9AllDBa26GKRb_wVbkMZ-c_OA09m1_SNVoznbLmAl4/edit#slide=id.p1)
+    * [Term Project](/docs/project)
 
 - Assignments
-    * placeholder
-    * placeholder
-    * placeholder
+    * [Acceptance test plan - team](/assignments/cross-team-acceptance-testing)
+    * [Acceptance test plan **results** - team](/assignments/cross-team-acceptance-testing)
 
 {{% /columns %}}
 {{% /card %}}
@@ -312,8 +308,8 @@ Sprint 3 due this week
 
 - Topics
     * [Introduction to Transition](/topics/openup-process-phases)
-    * placeholder
-    * placeholder
+    * [The end is near](https://docs.google.com/presentation/d/1LLJAdbT7wzkRcTbTeGipB8t5fTXUDcOfIo3gtS--dM8/edit#slide=id.p)
+    * [Term Project](/docs/project)
 
 - Assignments
     * [Sprint 3 due](/docs/project#construction-phase--sprint-3)
