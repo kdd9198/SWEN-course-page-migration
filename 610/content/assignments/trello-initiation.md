@@ -22,8 +22,6 @@ By the date indicated on your class schedule do the following as a team:
 * Clean these user stories up, put them into the format prescribed in our Defining Project Requirements lecture. The final result should be a *prioritized* list of User Stories and Epic cards. Provide a short title for each card, and the story text written in the standard format. At this point, you do not have to define Story Points, Acceptance Criteria, or Solution Tasks for User Stories that will be implemented in later sprints (*although beginning to think/talk about them will give your team a huge advantage). Epic cards should have all of the associated User Story cards linked to the **Stories** list by copying the URL for each constituent User Story and pasting it as a checklist item in the **Stories** list. See the [Defining Project Requirements lecture](/slides/defining-project-requirements.pptx) for details.
 * Click [here](/documents/product-backlog-example.docx) for a sample of a good Epic/Story hierarchy and a few good Stories to demonstrate the level of detail expected.
 
-{{% hint info %}}
-
 Initial User Stories for Sprint 0
 
 1. **User Registration:** As a User, I want to create an account so that I can access the Task Manager.
@@ -36,16 +34,14 @@ Initial User Stories for Sprint 0
 8. **Completed Task Viewing:** As a User, I want to view only my completed tasks so that I can review what I've accomplished.
 9. **Task Categorization:** As a User, I want to create categories and assign tasks to a category so that I can organize related tasks together.
 
-{{% /hint %}}
-
-{{% hint success %}}
-
 Suggested Trello Board Structure
 
 * **Product Backlog** - holds all stories and epics not yet scheduled for a sprint.
 * **Sprint Backlog** - stories selected for the current sprint.
 * **In Progress** - stories that are currently being worked on.
 * **Done** - stories that have been fully implemented and meet acceptance criteria.
+
+{{% hint warning %}}
 
 You may add more lists (e.g., "Testing" or "Review") as your team develops its workflow, but you must include at least these four columns.
 
