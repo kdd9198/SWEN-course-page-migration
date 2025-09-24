@@ -263,8 +263,8 @@ Client 3 due this week
 
 - Assignments
     * [Client 4 - Nightclub](/docs/project/client-project/nightclub#client-4-full-stack) - [Client 4 - Nutrikit](/docs/project/client-project/nutri-kit#client-4-full-stack)
-    * [Sprint retrospective analysis - team](/topics/sprint-retrospective-analysis#exercises)
-    * [Sprint retrospective action plan - team](/topics/sprint-retrospective-analysis#exercises)
+    * [Sprint retrospective analysis - team](/topics/sprint-retrospective#exercises)
+    * [Sprint retrospective action plan - team](/topics/sprint-retrospective#exercises)
 
 {{% /columns %}}
 {{% /card %}}
