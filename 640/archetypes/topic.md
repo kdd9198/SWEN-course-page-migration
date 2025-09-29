@@ -17,7 +17,6 @@ draft: true
 
 ### What You Will Implement
 
-
 ### Required Schema
 
 ### Test Data Seeds

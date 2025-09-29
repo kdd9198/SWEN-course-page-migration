@@ -28,7 +28,7 @@ Topics
 
 ### Week 2
 
-#### Data Collection I: Software Artifacts
+#### [Data Collection I: Software Artifacts](/docs/data-collection-I)
 
 Systematic artifact gathering from code/repos with automated pipelines.
 
@@ -44,7 +44,7 @@ Topics
 
 ### Week 3
 
-#### Data Collection II: Ecosystem Artifacts
+#### [Data Collection II: Ecosystem Artifacts](/docs/data-collection-II)
 
 Extends collection beyond code to the repo ecosystem for richer features later.
 
