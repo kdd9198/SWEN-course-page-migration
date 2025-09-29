@@ -122,3 +122,93 @@ Key: [multiple directories], (multiple files)
         |---[book directories]
             |---(book files)
 ```
+
+## Migration
+
+For most pages, the migration process is very simple. It is usually just a matter of taking the content from the existing page and converting it into markdown inside of the page's content file in the content directory. However, complex (or large) tables will generally need to be replaced with an alternative layout. Shortcodes are very useful for this, as they allow a degree of additional control over the style ofthe page. Examples of a few shortcodes can be found below. For more information these shortcodes, or other useful shortcodes such as Steps, see the documentation for the book theme (linked above).
+
+### Hint
+
+Especially useful for drawing student's attention to due dates, adding emphasis to important instructions on a project, or highlighting important information such as academic integrity rules on the syllabus. Here is an example of using it to highlight that something is due on the schedule
+
+```markdown
+### Week 3
+
+#### 9/7 - 9/12
+
+{{% hint warning %}}
+
+Assignment 2 due Tuesday
+
+{{% /hint %}}
+```
+
+### Columns
+
+The Column shortcode allows you to seperate your content in 2 or 3 columns, while structuring it as a list in markdown for conveniece. This shortcode will likely be needed when converting larger or more complex tables to markdown.
+
+```markdown
+{{% columns $}}
+
+- Topics
+    * Monday
+    * Tuesday
+    * Wednesday
+
+- Readings
+    * Chapter 3
+
+- Assignments
+    * Assignment 3
+    * Project 1
+
+{{% /columns %}}
+```
+
+### Card
+
+the Card has several features, but the simplest use is to add a border around content in order to clearly group related content togeather.
+
+```markdown
+{{% card %}}
+
+First paragraph
+
+Second related paragraph
+
+thrid related paragraph
+
+{{% /card %}}
+```
+
+### Example Week in a Schedule page
+
+```markdown
+## Week 3
+
+#### 9/7 - 9/12
+
+{{% hint warning %}}
+
+Assignment 2 due Tuesday
+
+{{% /hint %}}
+
+{{% card %}}
+{{% columns $}}
+
+- Topics
+    * Monday
+    * Tuesday
+    * Wednesday
+
+- Readings
+    * Chapter 3
+
+- Assignments
+    * Assignment 3
+    * Project 1
+
+{{% /columns %}}
+{{% /card %}}
+```
