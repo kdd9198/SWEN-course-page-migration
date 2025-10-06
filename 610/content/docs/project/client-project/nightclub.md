@@ -17,13 +17,9 @@ For this assignment, you will build a web applications using HTML, CSS and Javas
 
 ## Client-0 Startup: Your first web page
 
-### Overview
+### Overview and Setup
 
-{{< snippet "/snippets/client-project/client0-overview.md" >}}
-
-### Setup
-
-{{< snippet "/snippets/client-project/client0-setup.md" >}}
+See the [client project](/docs/project/client-project) introduction page for the Client-0 overview and setup instructions.
 
 ### Requirements
 
