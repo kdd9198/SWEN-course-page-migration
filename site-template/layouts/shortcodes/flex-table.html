@@ -1,0 +1,20 @@
+{{ $width := "fit-content" }}
+{{ with (.Get "width") }}
+    {{ $width := . }}
+{{ end }}
+
+{{ if .Get "advanced-cols" }}
+    {{ $cols := .Get "advanced-cols" }}
+
+<div class="flex-table" style="grid-template-columns: {{ $cols }}; width: {{ $width }};">
+    {{ .Inner }}
+</div>
+
+{{ else }}
+    {{ $cols := .Get "cols" }}
+
+<div class="flex-table" style="grid-template-columns: repeat({{ $cols }}, minmax(0, 1fr)); width: {{ $width }};">
+    {{ .Inner }}
+</div>
+
+{{ end }}
