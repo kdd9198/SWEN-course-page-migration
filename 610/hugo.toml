@@ -8,14 +8,3 @@ theme = 'book'
 
 [params]
   BookComments = false
-
-[menu]
-  [[menu.home]]
-    name = "Syllabus"
-    url = "/syllabus/"
-    weight = 2
-
-  [[menu.home]]
-    name = "Project"
-    url = "/project/"
-    weight = 3
