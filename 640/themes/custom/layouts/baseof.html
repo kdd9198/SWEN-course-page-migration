@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{ partial "head" . }}
+</head>
+<body>
+    <main class="container">
+        {{ partial "menu" . }}
+        <div class="content">
+            {{ partial "header" . }}
+            {{ partial "content" . }}
+            {{ partial "footer" . }}
+        </div>
+        {{ partial "toc" . }}
+    </main>
+</body>
+</html>
