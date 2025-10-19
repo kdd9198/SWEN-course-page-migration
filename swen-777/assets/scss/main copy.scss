@@ -109,3 +109,58 @@ ul.pagination {
     margin: $padding-8 0;
   }
 }
+
+.toc {
+  flex: 0 0 $toc-width;
+  font-size: $font-size-12;
+
+  .toc-content {
+    width: $toc-width;
+    padding: $padding-16;
+  }
+
+  img {
+    height: 1em;
+    width: 1em;
+  }
+
+  nav > ul > li:first-child {
+    margin-top: 0;
+  }
+}
+
+// Responsive styles
+.menu-content,
+.toc-content,
+.page,
+.header aside,
+.markdown {
+  transition: 0.2s ease-in-out;
+  transition-property: transform, margin, opacity, visibility;
+  will-change: transform, margin, opacity;
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+  .menu {
+    visibility: hidden;
+    margin-inline-start: -$menu-width;
+    z-index: 1;
+  }
+
+  .toc {
+    display: none;
+  }
+
+  .header {
+    display: block;
+  }
+}
+
+// Extra space for big screens
+@media screen and (min-width: $container-max-width) {
+  .page,
+  .menu .menu-content,
+  .toc .toc-content {
+    padding: $padding-16 * 2 $padding-16;
+  }
+}

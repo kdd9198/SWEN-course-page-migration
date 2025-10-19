@@ -1,7 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'SWEN-777'
-theme = 'custom'
 
 [markup.goldmark.renderer]
   unsafe = true
