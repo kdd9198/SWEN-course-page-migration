@@ -66,11 +66,11 @@ This course provides an exploration of software testing methodologies and the in
   * 9/9, 9/11
   * Unit Testing - Test Doubles
 
-    * [Unit Testing In-Class Activity]()
+    * [Unit Testing In-Class Activity](docs/python-test-doubles)
 
     Higher Level Testing: Integration/System testing/GUI Testing
 
-    * [GUI Testing In-Class Activity]()
+    * [GUI Testing In-Class Activity](/docs/gui-testing-monkey)
   * **[Requirements & Test Oracles](https://docs.google.com/document/d/1Mq_9cZefC0xHg-8aumVSJ2zzyKj7ugIYnNf4k034XPQ/edit?usp=sharing)**
 
     **Deliverables:**
@@ -89,7 +89,7 @@ This course provides an exploration of software testing methodologies and the in
   * 9/16, 9/18
   * Test Coverage - Code Coverage
 
-    * [Code Coverage In-Class Activity]()
+    * [Code Coverage In-Class Activity](/docs/python-calculator)
   * **Baseline Build & Test**
 
     **Deliverables:**
@@ -112,7 +112,7 @@ This course provides an exploration of software testing methodologies and the in
   * 9/23, 9/25
   * Test Coverage
 
-    * [Input Coverage Input Coverage In-Class Activity]()
+    * [Input Coverage Input Coverage In-Class Activity](/docs/input-coverage)
 
     Non-Functional Testing - Security Testing
   * **Unit Testing I (Extend Coverage)**
@@ -135,7 +135,7 @@ This course provides an exploration of software testing methodologies and the in
   * 9/30, 10/2
   * Non-Functional Testing - Performance Testing
 
-    * [Performance Testing In-Class Activity]()
+    * [Performance Testing In-Class Activity](/docs/android-performance-testing)
 
     Bug Report Management
   * **Unit Testing II (Mocking & Stubbing)**
