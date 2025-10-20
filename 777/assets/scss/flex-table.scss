@@ -13,12 +13,12 @@
 }
 
 .flex-table>ul>li>ul>li {
-    display: inline-flex;
-    justify-content: center;
+    display: block;
+    justify-content: left;
     padding: 0.5rem;
     border: 1px solid var(--gray-200);
     margin: -1px -1px 0 0;
-    text-align: center;
+    text-align: left;
     list-style: none;
 }
 
