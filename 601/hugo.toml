@@ -1,10 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'SWEN-'
-theme = 'book'
+title = 'SWEN-601'
 
 [markup.goldmark.renderer]
   unsafe = true
-
-[params]
-  BookComments = false
