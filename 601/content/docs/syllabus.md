@@ -6,11 +6,11 @@ weight: 1
 draft: true
 ---
 
-## Course Description:
+## Course Description
 
 This is a programming based course to enhance individual, technical engineering knowledge and skills as preparation for masters level graduate work. Students will be introduced to programming language syntax, object oriented concepts, data structures and foundational algorithms. An emphasis will be placed on obtaining practical programming skills, through regular programming assignments and practicum.
 
-## Course Topics:
+## Course Topics
 
 The course will encompass a variety of concepts and topics, among them are the following:
 
@@ -26,30 +26,30 @@ The course will encompass a variety of concepts and topics, among them are the f
 * Threads & Concurrency
 * Networking
 
-## Course Objectives:
+## Course Objectives
 
 This course provides an accelerated overview of the design and implementation of data structures and algorithms, in order to establish a common baseline of programming ability for graduate students in the Software Engineering and Data Science programs, who come from diverse backgrounds. This course replaces and builds upon the introductory undergraduate computer science sequence. By the end of this course, students should have practical programming skills and knowledge of common data structures and algorithms.
 
-Learning outcomes include:
+### Learning outcomes
 
 * The student will have practical experience with fundamental computer algorithms and data structures.
 * The student will learn object oriented programming and basic OO design.
 * The student will gain experience with modern programming tools such as integrated development environments, command line tools, text editors, and compilers.
 * The student will understand how to analyze and determine the computational complexity of algorithms.
 
-## Method of Instruction:
+## Method of Instruction
 
 This course will combine frequent active learning problems into the lecture period. Each lecture will begin with a short (~5 minute) quiz regarding the previous lecture's material. IN a typical week, the student will be responsible for two small homework assignments and two quizzes. Student progress will be assessed with three practica (coding exams).
 
-## Textbook(s):
+## Textbook(s)
 
 Students will receive all of the material that they need during the class in the form of lecture handouts and supplemental materials as needed. A textbook is not required.
 
-Recommended:
+### Recommended
 
 * "Effective Java, 3rd Edition", Joshua Bloch - This text is geared towards programmers that are already familiar with the Java language and want to learn how to maximize the efficient use of the language.
 
-## Attendance Policy:
+## Attendance Policy
 
 Attending class is expected. Quizzes will be given at the start of each lecture, and students will be expected to complete any in-class activities (e.g. small coding problems provided as a handout). Students that miss class without good reason will not be given an opportunity to make up missed work.
 
