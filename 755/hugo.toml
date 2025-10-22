@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'SWEN-'
+title = 'SWEN-755'
 
 [markup.goldmark.renderer]
   unsafe = true
