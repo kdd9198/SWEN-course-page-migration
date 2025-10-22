@@ -94,12 +94,12 @@ draft: true
   * Project Proposals
   * 
 
-- * Mon 10-20
+- * Mon 10/20
   * 9-1
   * Mid Term Exam
   * Team Checkin #1
 
-- * Wed 10-22
+- * Wed 10/22
   * 9-2
   * Microservices & Serverless Computing
   * Team Checkin #1
