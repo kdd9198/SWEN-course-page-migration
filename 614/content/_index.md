@@ -6,7 +6,7 @@ toc: false
 draft: true
 ---
 
-## SWEN 514/614 - Engineering Cloud-Based Software Systems
+## SWEN 514/614 - Engineering Cloud Software Systems
 
 {{% flex-table advanced-cols="4em 4em 1fr 1fr" width="100%" %}}
 - * Date
