@@ -7,7 +7,7 @@ weight: 10
 draft: true
 ---
 
-{{% flex-table advanced-cols="1fr 1fr 1fr 1fr 1fr 4em" width="100%" %}}
+{{% flex-table advanced-cols="1fr 1fr 1fr 1fr 1fr 4em" width="100%" title="rubric" headings="Category;Exceeds Expectations;Meets Expectations;Partially Meets Expectations;Did Not Meet Expectations;Total" %}}
 - * Category
   * Exceeds Expectations (76-100%)
   * Meets Expectations (51-75%)
