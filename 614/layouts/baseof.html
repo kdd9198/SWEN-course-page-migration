@@ -11,7 +11,10 @@
             </article>
             {{- partial "footer.html" . -}}
         </div>
+        {{ $toc := .Params.toc | default true }}
+        {{ if $toc }}
         {{- partial "toc.html" . -}}
+        {{ end }}
     </main>
 </body>
 </html>
