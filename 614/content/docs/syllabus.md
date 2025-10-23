@@ -10,8 +10,8 @@ draft: true
 
 ### Instructor
 
-Mike Zaharkin
-Email: mszvse@rit.edu
+* Mike Zaharkin
+* Email: mszvse@rit.edu
 
 ### Course time and Location
 
