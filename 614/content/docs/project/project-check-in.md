@@ -10,7 +10,7 @@ draft: true
 
 Teams will have three scheduled check-ins with either the Professor or a Course Assistant (CA) to discuss their progress and demonstrate portions of their project. Each team’s meeting schedule is based on the following table:
 
-{{% flex-table advanced-cols="6em 1fr 1fr 1fr" width="100%" %}}
+{{% flex-table advanced-cols="6em 1fr 1fr 1fr" width="100%" title="checkin" headings="Check-in;Instructor;CA;CA" %}}
 - * Check-in
   * Meet w/ Instructor
   * Meet w/ CA
