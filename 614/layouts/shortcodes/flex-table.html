@@ -1,11 +1,30 @@
+{{ if and (.Get "headings") (.Get "title") }}
+{{ $headings := split (.Get "headings") ";" }}
+{{ $title := .Get "title" }}
+<style>
+    @media (max-width: 768px) {
+        #{{ $title }}>ul>li>ul>li:nth-child(1){font-weight: normal;}
+    {{ range $index, $element := $headings }}
+        {{ $child := add $index 1 }}
+        #{{ $title }}>ul>li>ul>li:nth-child({{ $child }}):before{
+            content: '{{ $element }}\A';
+            font-weight: bold;
+            white-space: pre;
+            width: 100%;
+        }
+    {{ end }}
+    }
+</style>
+{{ end }}
+
 {{ if .Get "advanced-cols" }}
 {{ $cols := .Get "advanced-cols" }}
-<div class="flex-table" style="grid-template-columns: {{ $cols }}; width: {{ .Get "width" | default "fit-content" }};">
+<div class="flex-table" id="{{ .Get "title" | default "" }}" style="grid-template-columns: {{ $cols }}; width: {{ .Get "width" | default "fit-content" }};">
     {{ .Inner }}
 </div>
 {{ else }}
 {{ $cols := .Get "cols" }}
-<div class="flex-table" style="grid-template-columns: repeat({{ $cols }}, minmax(0, 1fr)); width: {{ .Get "width" | default "fit-content" }};">
+<div class="flex-table" id="{{ .Get "title" | default "" }}" style="grid-template-columns: repeat({{ $cols }}, minmax(0, 1fr)); width: {{ .Get "width" | default "fit-content" }};">
     {{ .Inner }}
 </div>
 {{ end }}
