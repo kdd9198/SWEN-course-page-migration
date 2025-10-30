@@ -6,7 +6,7 @@ toc: false
 draft: true
 ---
 
-## Schedule
+## Collaborative Software Development
 
 {{% flex-table advanced-cols="4em 1fr" title="schedule" headings="Week;Topic" %}}
 - * Week
