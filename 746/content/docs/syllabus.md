@@ -6,6 +6,10 @@ draft: true
 
 ## Syllabus – Data-Driven Software Engineering & Modeling
 
+Course materials can be accessed from the following link. Please use your RIT Chrome account.
+
+https://drive.google.com/drive/folders/1DxAnGxXFR8P3WSt5srgT1PdguXrRUyD2?usp=sharing
+
 ## Course Description
 
 This course treats **software engineering as a data problem**. Students learn to model software structure and processes and to mine the rich data emitted by modern development platforms (Git, CI/CD, issue trackers, telemetry). Using statistical and machine-learning techniques—including large language models (LLMs)—they will predict quality, detect anomalies, and generate useful artefacts (tests, documentation, UML). Emphasis is placed on reproducible empirical methods, explainable models, and responsible AI use.
