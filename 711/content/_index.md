@@ -54,7 +54,7 @@ There are three expected components in the course. The grades will be determined
 ### Textbook
 
 * **Required**: None. Reading material will be distributed throughout the semester.
-* References:
+* **References**:
     * Reinforcement Learning by Richard Sutton and Andrew G. Barto (2nd Edition)
     * Feedback Control of Computing Systems (with Yixin Diao, Sujay Parekh, and Dawn Tilbury), Wiley (2004)
 
