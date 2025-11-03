@@ -99,4 +99,15 @@ The site’s files will be divided between the site’s main directories and the
 
 ## Migration
 
-For most pages, the migration process is very simple. It is usually just a matter of taking the content from the existing page and converting it into markdown inside of the page's content file in the content directory. However, complex (or large) tables will generally need to be replaced with an alternative layout. Shortcodes are very useful for this, as they allow a degree of additional control over the style ofthe page. Examples of a few shortcodes can be found below. For more information these shortcodes, or other useful shortcodes included in the theme such as Steps, see the documentation for the book theme (linked above).
+For most pages, the migration process is very simple. It is usually just a matter of taking the content from the existing page and converting it into markdown inside of the page's content file in the content directory. However, complex (or large) tables may need to be replaced with an alternative layout. Shortcodes are very useful for this, as they allow a degree of additional control over the style of the page.
+
+### Missing Pages
+
+The following are pages that do not currently exist, or need extra review/modification after the migration process, and may need to be created from scratch:
+
+* Schedule
+* update Course Description in Syllabus
+* Assignments
+* Project
+
+New pages can be created either by creating a new markdown file in the appropriate directory, or configuring an archetype and using the `hugo new content` command (see Adding New Content Pages above)
