@@ -2,9 +2,10 @@ baseURL = 'https://example.org/'
 relativeURLs = true
 languageCode = 'en-us'
 title = 'SWEN-732'
-publishDir = "SWEN-732"
 
 cleanDestinationDir = true
+
+publishDir = "/home/fall2020/kdd9198/public_html/test-deploy/SWEN-732"
 cacheDir = "/home/fall2020/kdd9198/hugo-cache"
 
 [markup.goldmark.renderer]
