@@ -1,0 +1,11 @@
+baseURL = 'https://example.org/'
+relativeURLs = true
+languageCode = 'en-us'
+title = 'SWEN-732'
+publishDir = "SWEN-732"
+
+cleanDestinationDir = true
+cacheDir = "/home/fall2020/kdd9198/hugo-cache"
+
+[markup.goldmark.renderer]
+  unsafe = true

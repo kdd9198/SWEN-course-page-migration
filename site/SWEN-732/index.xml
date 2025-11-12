@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>schedule on SWEN-732</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in schedule on SWEN-732</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Syllabus</title>
+      <link>http://localhost:1313/docs/syllabus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/syllabus/</guid>
+      <description>&lt;h2 id=&#34;collaborative-software-development&#34;&gt;Collaborative Software Development&lt;/h2&gt;&#xA;&lt;p&gt;Days: Tuesay / Thursday&lt;/p&gt;&#xA;&lt;p&gt;Time 12:30 PM - 1:45 PM&lt;/p&gt;&#xA;&lt;p&gt;Location: Wallace Library (WAL)-3520&lt;/p&gt;&#xA;&lt;p&gt;All course-related announcements will be posted on MyCourses. Please check MyCourses promptly.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructor&#34;&gt;Instructor&lt;/h2&gt;&#xA;&lt;p&gt;Yiming Tang&lt;/p&gt;&#xA;&lt;p&gt;Instructor contact information: &lt;a href=&#34;mailto:yxtvse@rit.edu&#34;&gt;yxtvse@rit.edu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Office hours: GOL-1573 Tu/Th 2:00 PM - 3:00 PM&lt;/p&gt;&#xA;&lt;h2 id=&#34;course-assistant&#34;&gt;Course Assistant&lt;/h2&gt;&#xA;&lt;h2 id=&#34;course-materials&#34;&gt;Course Materials&lt;/h2&gt;&#xA;&lt;p&gt;Course materials can be accessed from the following link. Please use your RIT Chrome account.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://drive.google.com/drive/folders/1-LjQn8sf-m-HGlLBvktGsyX-hS5In9OK?usp=sharing&#34;&gt;https://drive.google.com/drive/folders/1-LjQn8sf-m-HGlLBvktGsyX-hS5In9OK?usp=sharing&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;final-exam&#34;&gt;Final Exam&lt;/h2&gt;&#xA;&lt;p&gt;Exam Date: 5/1/2025&lt;/p&gt;&#xA;&lt;p&gt;Time: 1:30:00 PM - 4:00:00 PM&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
