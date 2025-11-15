@@ -1,10 +1,10 @@
 baseURL = 'https://example.org/'
+relativeURLs = true
 languageCode = 'en-us'
 title = 'SWEN 640'
-theme = 'book'
+
+cleanDestinationDir = true
+minifyOutput = true
 
 [markup.goldmark.renderer]
   unsafe = true
-
-[params]
-  BookComments = false

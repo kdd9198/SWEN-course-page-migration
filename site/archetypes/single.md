@@ -1,10 +1,8 @@
 ---
-title: {{ replace .File.ContentBaseName "-" " " | title }}
-date: {{ .Date }}
-weight: 100
+title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+date: '{{ .Date }}'
 
-bookToC: true
-bookSearchExclude: false
+weight: 1
 
 draft: true
 ---
