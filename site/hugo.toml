@@ -3,5 +3,8 @@ relativeURLs = true
 languageCode = 'en-us'
 title = 'SWEN-514/614'
 
+cleanDestinationDir = true
+minifyOutput = true
+
 [markup.goldmark.renderer]
   unsafe = true
