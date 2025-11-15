@@ -1,0 +1,105 @@
+.cell-color {
+    margin: -.5rem;
+    padding: .5rem;
+}
+
+.hint {
+    @each $name, $color in $hint-colors {
+        &.#{$name} {
+            border-color: $color;
+            background-color: rgba($color, 0.1);
+        }
+    }
+}
+
+.steps {
+    >ol {
+        counter-reset: steps;
+        list-style: none;
+        padding-inline-start: $padding-16 + $padding-4;
+        margin-top: $padding-16 * 2;
+
+        >li::before {
+            content: counter(steps);
+            counter-increment: steps;
+
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            left: $padding-8;
+
+            height: $padding-16 * 1.5;
+            width: $padding-16 * 1.5;
+            padding: $padding-4;
+            border-radius: $padding-8;
+
+            white-space: nowrap;
+            line-height: $padding-16;
+
+            color: var(--body-background);
+            background: var(--gray-500);
+            outline: $padding-4 solid var(--body-background);
+        }
+
+        >li {
+            @extend .markdown-inner;
+            border-inline-start: $padding-1 solid var(--gray-500);
+            padding-inline-start: $padding-16 * 3;
+                    
+            padding-bottom: $padding-16 * 2;
+        }
+
+        >li:last-child {
+            border: 0;
+        }
+    }
+}
+
+.columns {
+    gap: $padding-16;
+
+    >div {
+        margin: $padding-16 0;
+        min-width: $body-min-width * 0.66;
+    }
+
+    >ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        flex-wrap: wrap;
+        gap: $padding-16;
+
+        >li {
+            flex: 1 1;
+            min-width: $body-min-width * 0.66;
+        }
+    }
+}
+
+.card {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    border-radius: $border-radius;
+    border: $padding-1 solid var(--gray-200);
+        
+    &[href]:hover {
+        text-decoration: none;
+        background: var(--gray-100);
+    }
+    &[href]:visited {
+        color: var(--body-font-color);
+    }
+
+    img {
+        display: block;
+        object-fit: contain;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+    }
+
+    .markdown-inner {
+        padding: $padding-16;
+    }
+}
