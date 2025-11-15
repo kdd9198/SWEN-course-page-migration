@@ -4,9 +4,8 @@ languageCode = 'en-us'
 title = 'SWEN-732'
 
 cleanDestinationDir = true
-
-publishDir = "/home/fall2020/kdd9198/public_html/test-deploy/SWEN-732"
-cacheDir = "/home/fall2020/kdd9198/hugo-cache"
+minifyOutput = true
+buildDrafts = true
 
 [markup.goldmark.renderer]
   unsafe = true
