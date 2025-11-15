@@ -5,7 +5,6 @@ title = 'SWEN-732'
 
 cleanDestinationDir = true
 minifyOutput = true
-buildDrafts = true
 
 [markup.goldmark.renderer]
   unsafe = true
