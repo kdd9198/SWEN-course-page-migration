@@ -6,5 +6,8 @@ title = 'SWEN-732'
 cleanDestinationDir = true
 minifyOutput = true
 
+cleanDestinationDir = true
+minifyOutput = true
+
 [markup.goldmark.renderer]
   unsafe = true
