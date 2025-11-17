@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-{{ $width := "fit-content" }}
-{{ with (.Get "width") }}
-    {{ $width := . }}
-{{ end }}
-
-{{ if .Get "advanced-cols" }}
-    {{ $cols := .Get "advanced-cols" }}
-
-<div class="flex-table" style="grid-template-columns: {{ $cols }}; width: {{ $width }};">
-    {{ .Inner }}
-</div>
-
-{{ else }}
-    {{ $cols := .Get "cols" }}
-
-<div class="flex-table" style="grid-template-columns: repeat({{ $cols }}, minmax(0, 1fr)); width: {{ $width }};">
-    {{ .Inner }}
-</div>
-
-=======
 {{ if and (.Get "headings") (.Get "title") }}
 {{ $headings := split (.Get "headings") ";" }}
 {{ $title := .Get "title" }}
@@ -48,5 +27,4 @@
 <div class="flex-table" id="{{ .Get "title" | default "" }}" style="grid-template-columns: repeat({{ $cols }}, minmax(0, 1fr)); width: {{ .Get "width" | default "fit-content" }};">
     {{ .Inner }}
 </div>
->>>>>>> main
 {{ end }}
