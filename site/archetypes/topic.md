@@ -14,3 +14,21 @@ draft: true
 ### Introduction
 
 ### Learning Outcomes
+
+### Study Resources
+
+For your study of this topic, use some of these resources.
+
+#### *Video Lessons*
+
+#### *Web Articles and Blogs*
+
+#### *Books*
+
+#### *Wikipedia*
+
+### Class Lecture
+
+### Exercises
+
+#### *After Class Exercises*

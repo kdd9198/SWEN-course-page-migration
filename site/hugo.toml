@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'SWEN-'
+title = 'SWEN-610'
 
 relativeURLs = true
 cleanDestinationDir = true
