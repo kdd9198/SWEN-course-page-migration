@@ -1,10 +1,16 @@
-baseURL = 'https://example.org/'
-relativeURLs = true
+baseURL = '/'
 languageCode = 'en-us'
 title = 'SWEN 640'
 
+relativeURLs = true
 cleanDestinationDir = true
-minifyOutput = true
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML"]
+term = ["HTML"]
+page = ["HTML"]
 
 [markup.goldmark.renderer]
   unsafe = true
