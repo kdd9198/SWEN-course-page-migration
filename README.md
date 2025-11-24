@@ -1,25 +1,6 @@
 # SWEN-course-page-migration
 
-
 This is the project to migrate the course pages for the RIT Software Engineering Masters program classes from raw HTML to the Hugo framework. Hugo uses a template system to allow for fast and easy additions or changes to a static site, allowing for improved maintainability. The process includes both updating outdated layouts to improve site flow, and the implementation of reusable components and templates to improve maintainability.
-
-## Adding new content pages
-
-New content pages can be added by using the `hugo new content` command in the site's directory, including the target directory and name for the page content file. For example:
-
-```
-hugo new content topics/new-topic.md --kind topic
-```
-
-The above example will create a content file called `new-topic.md` in the `content/topics` directory using the site's `topic.md` archetype. Omitting `--kind topic` from the command will create the content file using the Book theme's default archetype instead
-
-## Cloning the Project
-The Hugo theme used by this project is included as a git submodule and will need to be initialized after cloning. From within the repository's directory run the following commands to clone the Book theme:
-
-```
-git submodule init
-git submodule update
-```
 
 ## Adding new content pages
 
