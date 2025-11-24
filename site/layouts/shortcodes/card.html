@@ -1,0 +1,17 @@
+{{- /* remove whitespace */ -}}
+{{- if .Get "href" -}}
+  <a class="card{{ with .Get "class" }} {{ . }}{{ end }}"{{ with .Get "href" }} href="{{ . | relURL }}"{{ end }}>
+  {{- template "card-content" . -}}
+  </a>
+{{- else -}}
+  <div class="card{{ with .Get "class" }} {{ . }}{{ end }}">
+    {{- template "card-content" . -}}
+  </div>
+{{- end -}}
+
+{{- define "card-content" -}}
+<div class="markdown-inner">
+  {{ with .InnerDeindent }}{{ . }}{{ end }}
+</div>
+{{- end -}}
+{{- /* remove whitespace */ -}}

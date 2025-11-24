@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+<body>
+    <main class="container flex">
+        {{- partial "menu.html" . -}}
+        <div class="page">
+            {{- partial "header.html" . -}}
+            <article class="markdown article">
+                {{- block "main" . }}{{- end }}
+            </article>
+            {{- partial "footer.html" . -}}
+        </div>
+        {{ $toc := .Params.toc | default true }}
+        {{ if $toc }}
+        {{- partial "toc.html" . -}}
+        {{ end }}
+    </main>
+</body>
+</html>

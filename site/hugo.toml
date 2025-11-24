@@ -1,0 +1,16 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'SWEN-'
+
+relativeURLs = true
+cleanDestinationDir = true
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML"]
+term = ["HTML"]
+page = ["HTML"]
+
+[markup.goldmark.renderer]
+  unsafe = true
