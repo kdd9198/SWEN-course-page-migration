@@ -28,7 +28,7 @@ This course provides an exploration of software testing methodologies and the in
 
 ### Tentative Schedule
 
-{{% flex-table advanced-cols="4em 4em 1fr 2fr" width="100%" %}}
+{{% flex-table advanced-cols="4em 4em 1fr 2fr" width="100%" title="schedule" headings="Week;Dates;Lectures;Due" %}}
 - * Week
   * Dates
   * Lectures / Activities / Papers
