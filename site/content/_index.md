@@ -110,9 +110,9 @@ This course provides an exploration of software testing methodologies and the in
     Submit PR includes document, testResults and testCoverage, and merge
 - * 5
   * 9/23, 9/25
-  * Test Coverage
+  * Test Coverage - Input Coverage 
 
-    * [Input Coverage Input Coverage In-Class Activity](/docs/input-coverage)
+    * [Input Coverage In-Class Activity](/docs/input-coverage)
 
     Non-Functional Testing - Security Testing
   * **Unit Testing I (Extend Coverage)**
