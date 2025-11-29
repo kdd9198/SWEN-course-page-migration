@@ -66,15 +66,15 @@ UI Specifications are often page mockups. Your page should be similar to this…
 
 #### Sample Page 1
 
-![nightclub 0 sample 1](/images/client-project/club-0.0.jpg)
+![nightclub 0 sample 1](/images/client-project/club-0.0.JPG)
 
 #### Sample Page 2
 
-![nightclub 0 sample 2](/images/client-project/club-0.1.jpg)
+![nightclub 0 sample 2](/images/client-project/club-0.1.JPG)
 
 #### Sample Page 3
 
-![nightclub 0 sample 3](/images/client-project/club-0.2.jpg)
+![nightclub 0 sample 3](/images/client-project/club-0.2.JPG)
 
 ## Client 1
 
@@ -151,11 +151,11 @@ UI Specifications are often page mockups. Your page should be similar to this…
 
 #### Sample Page 1
 
-![nightclub 1 sample 1](/images/client-project/club-1.0.jpg)
+![nightclub 1 sample 1](/images/client-project/club-1.0.JPG)
 
 #### Sample Page 2
 
-![nightclub 1 sample 2](/images/client-project/club-1.1.jpg)
+![nightclub 1 sample 2](/images/client-project/club-1.1.JPG)
 
 ## Client-2: Port to React
 

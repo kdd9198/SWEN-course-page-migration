@@ -56,7 +56,7 @@ Try to find one or two positive things that happened during the sprint; a "keep 
 
 Write each issue on a post-it note. Most of you probably already did this activity as part of the pre-class quiz. Still spend a minute or two in case you think of something new, and to give those didn't do the quiz time to come up with a several ideas. The issues should be roughly at this level of detail:
 
-![An example issues card](/images/sprint-retrospective/sample-retro-issue-card2.jpg)
+![An example issues card](/images/sprint-retrospective/Sample-retro-issue-card2.jpg)
 
 Coming up with ideas can be challenging on your own so here are topics to consider:
 
@@ -93,11 +93,11 @@ This step could take up to **five minutes** depending upon how many members need
 
 Select a facilitator who will draw the starfish shape and labels onto the room's whiteboard. It should fill the board and look like this:
 
-![An example empty starfish chart.](/images/sprint-retrospective/starfish-empty.jpg)
+![An example empty starfish chart.](/images/sprint-retrospective/Starfish-empty.jpg)
 
 Next, each team member places their issue cards onto the starfish chart in the proper location.
 
-![An example starfish chart with a few issues on it.](/images/sprint-retrospective/starfish-with-issues.jpg)
+![An example starfish chart with a few issues on it.](/images/sprint-retrospective/Starfish-with-issues.jpg)
 
 This step should take only **a minute or two.**
 
@@ -105,7 +105,7 @@ This step should take only **a minute or two.**
 
 The facilitator reads each card aloud to the team. If clarification is needed, the author can answer questions but the facilitator has the floor so there should not be other extraneous discussion. As the facilitator reads the cards, he or she groups similar issues together by moving the similar cards next to each other.
 
-![An example starfish chart after issue grouping.](/images/sprint-retrospective/starfish-grouped-issues.jpg)
+![An example starfish chart after issue grouping.](/images/sprint-retrospective/Starfish-grouped-issues.jpg)
 
 This step should take **ten to fifteen minutes.**
 
@@ -113,7 +113,7 @@ This step should take **ten to fifteen minutes.**
 
 Using whiteboard pens every member votes for their five favorite issues (or issue group). Do not put votes on issues in the *Keep doing* category. Here is an example starfish chart with votes.
 
-![An example starfish chart after the voting is done.](/images/sprint-retrospective/starfish-voted-issues.jpg)
+![An example starfish chart after the voting is done.](/images/sprint-retrospective/Starfish-voted-issues.jpg)
 
 When the voting is done, take a snapshot of the whiteboard. You will submit this image file to the *Sprint Retrospective Analysis* dropbox in the **Exercises** area of myCourses.
 

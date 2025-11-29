@@ -25,14 +25,14 @@ Use the instructions below to create your code release for sprints 1 through 4. 
 
 1. Navigate to your project's GitHub home page. The top of the page, will look something like the following screenshot.
 
-    ![GitHub project home](/images/github-project-home.png)
+    ![GitHub project home](/images/GitHub-project-home.png)
 
 2. Click on the `releases` link in the row: `commits | branches | releases | contributors`. This will take you to a releases page similar to the screenshot below.
 
-    ![GitHub releases page](/images/github-releases-page.png)
+    ![GitHub releases page](/images/GitHub-releases-page.png)
 
 3. Click on the *Create a new release* button. Fill-in the release form similar to the screenshot below. Use an initial release tag of `vX.0.` where `X` is the sprint number. Start with a `.0` version. Make sure that the title is clearly marked as the *Sprint X submission*, and provide an accurate description of the release including anything that your instructor should know about the release, such as features that are missing or are buggy. After the form is filled out click the *Publish* release button.
 
-    ![GitHub release tagging](/images/github-release-tagging.png)
+    ![GitHub release tagging](/images/GitHub-release-tagging.png)
 
 {{% /steps %}}

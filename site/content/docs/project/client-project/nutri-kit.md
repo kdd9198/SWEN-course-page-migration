@@ -70,15 +70,15 @@ UI Specifications are often page mockups. Your page should be similar to this…
 
 #### Sample Page 1
 
-![Sample Page 1](/images/client-project/nutrikit-0.0.jpg)
+![Sample Page 1](/images/client-project/nutrikit-0.0.JPG)
 
 #### Sample Page 2
 
-![Sample Page 2](/images/client-project/nutrikit-0.1.jpg)
+![Sample Page 2](/images/client-project/nutrikit-0.1.JPG)
 
 #### Sample Page 3
 
-![Sample Page 3](/images/client-project/nutrikit-0.2.jpg)
+![Sample Page 3](/images/client-project/nutrikit-0.2.JPG)
 
 ## Client 1
 
