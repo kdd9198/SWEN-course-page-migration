@@ -2,8 +2,7 @@
 title: "Schedule"
 
 weight: 1
-bookToC: true
-bookSearchExclude: false
+ToC: true
 
 draft: true
 ---
