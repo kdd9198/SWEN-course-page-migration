@@ -67,7 +67,7 @@ draft: true
 
 ### Elaboration
 
-{{% flex-table advanced-cols="5em 3.5em 1fr 1fr 1fr" width="100%" title="inception" headings="Session;Date;Topics;Assignments;Due" %}}
+{{% flex-table advanced-cols="5em 3.5em 1fr 1fr 1fr" width="100%" title="elaboration" headings="Session;Date;Topics;Assignments;Due" %}}
 - * Session
   * Date
   * Topics
@@ -101,7 +101,7 @@ draft: true
 
 ### Construction
 
-{{% flex-table advanced-cols="5em 4em 1fr 1fr 1fr" width="100%" title="inception" headings="Session;Date;Topics;Assignments;Due" %}}
+{{% flex-table advanced-cols="5em 4em 1fr 1fr 1fr" width="100%" title="construction" headings="Session;Date;Topics;Assignments;Due" %}}
 - * Session
   * Date
   * Topics
@@ -191,7 +191,7 @@ draft: true
 
 ### Transition
 
-{{% flex-table advanced-cols="5em 4em 1fr 1fr 1fr" width="100%" title="inception" headings="Session;Date;Topics;Assignments;Due" %}}
+{{% flex-table advanced-cols="5em 4em 1fr 1fr 1fr" width="100%" title="transition" headings="Session;Date;Topics;Assignments;Due" %}}
 - * Session
   * Date
   * Topics
