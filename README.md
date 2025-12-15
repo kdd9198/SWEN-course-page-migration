@@ -131,7 +131,7 @@ For example, if you have two pieces of reusable content in `assets/snippets`:
 
 ## Section 1
 
-{{% snippet src="snippets/reuable-A.md" %}}
+{{% snippet src="snippets/reusable-A.md" %}}
 
 ## Section 2
 
@@ -139,13 +139,14 @@ some page-specific content
 
 ## Section 3
 
-{{% snippet src="snippets/reuable-B.md" %}}
+{{% snippet src="snippets/reusable-B.md" %}}
 ```
 
 #### steps
 
 This sortcode styles an ordered list so that the numbers on the list are connected to help keep larger step-by-step instructions organized
 
+```markdown
 {{% steps %}}
 1. step 1
 
@@ -153,6 +154,7 @@ This sortcode styles an ordered list so that the numbers on the list are connect
 
 3. step 3
 {{% /steps %}}
+```
 
 #### card
 
