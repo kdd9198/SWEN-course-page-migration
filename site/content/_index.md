@@ -1,4 +1,7 @@
 ---
-title: "test"
+title: "Schedule"
+
+draft: true
 ---
-this is placeholder text
+
+content goes here
