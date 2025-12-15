@@ -195,6 +195,7 @@ For most pages, the migration process is very simple. It is usually just a matte
 
 The following are pages that do not currently exist, or need extra review/modification after the migration process, and may need to be created from scratch:
 
+* split off 514 version
 * update site from 514 to 614
 
 New pages can be created either by creating a new markdown file in the appropriate directory, or configuring an archetype and using the `hugo new content` command (see Adding New Content Pages above)
